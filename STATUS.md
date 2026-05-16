@@ -2,7 +2,7 @@
 
 - Project: Channel Sales Forecasting Console
 - GitHub: https://github.com/Saurav-Kanegaonkar/Channel-Sales-Forecasting-Console
-- Status: artifact ready
+- Status: pushed
 - Resume Link Ready: Yes
 
 ## What Exists
