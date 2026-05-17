@@ -1,9 +1,10 @@
 # Data Dictionary
 
-| Field | Meaning |
-|---|---|
-| scenario | Sales planning option |
-| channel_growth | Expected growth rate |
-| forecast_variance | Gap between forecast and expected actuals |
-| promo_roi | Promotion return on investment |
-| comp_flags | Compensation or incentive review flags |
+| Table | Grain | Purpose |
+|---|---|---|
+| dealers.csv | dealer | Region, channel type, and territory manager |
+| dealer_daily_sales.csv | dealer x day | Units, gross sales, discounts, inventory, pipeline |
+| promotion_calendar.csv | promotion | Region/channel promotion plans and expected ROI |
+| monthly_forecasts.csv | dealer x month | Submitted forecast versus actuals |
+| territory_capacity.csv | region x week | Manager capacity and coverage risk |
+| compensation_flags.csv | flag | Incentive, exception, and compensation exposure |

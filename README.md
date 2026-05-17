@@ -21,6 +21,12 @@ This is a channel sales forecast scenario console using synthetic dealer, promot
 - Limit promotions to territories with enough coverage to absorb demand.
 - Review compensation flags before finalizing the channel forecast.
 
+## Data sources
+
+- Six source-style CSVs now support the channel forecasting scenario pack.
+- The data includes dealers, daily sales, promotions, monthly forecasts, territory capacity, and compensation flags.
+- The scoring script combines forecast error and unresolved compensation exposure to rank planning risk.
+
 ## Repository structure
 
 - `index.html` - interactive scenario pack
