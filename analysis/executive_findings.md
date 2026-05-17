@@ -2,14 +2,14 @@
 
 ## What I analyzed
 
-I joined dealer sales, submitted forecasts, actuals, compensation flags, and territory capacity to find planning risks before sales review.
+I joined 3,840 daily metric rows, 650 source events, and 180 action candidates for channel sales planning.
 
 ## Findings
 
-- The dataset contains 36 dealers, 5,400 dealer-day sales rows, 216 forecast records, 520 compensation flags, and 144 territory-capacity rows.
-- Territory capacity includes 47 high-risk weekly coverage records.
-- The highest-risk dealer is D001 (Prime Dealer 1) with 21.67% average forecast error and $236,918 unresolved compensation exposure.
+- The highest-priority dealer is DEA025 with a priority score of 88.53.
+- The top queue combines 49.8 average risk with 78.8 quality score and $731,146 estimated impact.
+- The strongest use case is turning repeated stakeholder questions into a ranked operating digest.
 
 ## Recommendation
 
-Use the territory rebalance scenario when forecast error and compensation exposure overlap. Promotion pushes should be limited to territories with enough manager capacity and lower incentive risk.
+Prioritize the top queue before scaling more dashboards. The project should help leaders decide which dealer risks need action, validation, or monitoring.

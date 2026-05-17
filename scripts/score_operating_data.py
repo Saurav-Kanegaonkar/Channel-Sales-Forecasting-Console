@@ -1,25 +1,25 @@
 import csv
 from collections import defaultdict
 
-forecast_error = defaultdict(list)
-with open("data/monthly_forecasts.csv", newline="") as f:
+daily = defaultdict(lambda: {"risk": 0.0, "quality": 0.0, "rows": 0})
+with open("data/daily_metrics.csv", newline="") as f:
     for row in csv.DictReader(f):
-        submitted = int(row["submitted_forecast_units"])
-        actual = int(row["actual_units"])
-        forecast_error[row["dealer_id"]].append(abs(actual - submitted) / max(submitted, 1))
+        bucket = daily[row["entity_id"]]
+        bucket["risk"] += float(row["risk_score"])
+        bucket["quality"] += float(row["quality_score"])
+        bucket["rows"] += 1
 
-comp = defaultdict(float)
-with open("data/compensation_flags.csv", newline="") as f:
+impact = defaultdict(float)
+with open("data/source_events.csv", newline="") as f:
     for row in csv.DictReader(f):
-        if row["status"] != "Resolved":
-            comp[row["dealer_id"]] += float(row["estimated_exposure"])
+        impact[row["entity_id"]] += float(row["estimated_impact"])
 
 ranked = []
-for dealer_id, errors in forecast_error.items():
-    avg_error = sum(errors) / len(errors)
-    score = avg_error * 100 + comp[dealer_id] / 10000
-    ranked.append((score, dealer_id, avg_error, comp[dealer_id]))
+for entity_id, values in daily.items():
+    risk = values["risk"] / values["rows"]
+    quality = values["quality"] / values["rows"]
+    score = risk * 0.65 + (100 - quality) * 0.35 + impact[entity_id] / 15000
+    ranked.append((score, entity_id, risk, quality, impact[entity_id]))
 
-print("Dealer planning risk")
-for score, dealer_id, avg_error, exposure in sorted(ranked, reverse=True)[:10]:
-    print(f"{dealer_id}: risk={score:.1f}, forecast_error={avg_error:.1%}, open_comp_exposure=$" + format(exposure, ",.0f"))
+for score, entity_id, risk, quality, event_impact in sorted(ranked, reverse=True)[:10]:
+    print(f"{entity_id}: priority_score={score:.1f}, risk={risk:.1f}, quality={quality:.1f}, event_impact=$" + format(event_impact, ",.0f"))

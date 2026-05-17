@@ -1,6 +1,6 @@
 # Analysis Plan
 
-1. Compare submitted forecasts to actual monthly units at dealer grain.
-2. Add unresolved compensation exposure and open flag count.
-3. Join region and channel metadata for sales-planning context.
-4. Rank dealers by planning risk and summarize territory capacity pressure.
+1. Aggregate daily metrics at dealer grain.
+2. Join events and action candidates to find high-risk operating segments.
+3. Rank the queue by risk, quality, and estimated impact.
+4. Convert the top issues into stakeholder-ready recommendations.

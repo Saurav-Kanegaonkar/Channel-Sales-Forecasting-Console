@@ -1,0 +1,26 @@
+entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
+DEA025,Dealer 25,Watch,88.53,49.8,78.8,731146
+DEA016,Dealer 16,Strategic,86.16,54.1,80.3,661346
+DEA024,Dealer 24,Core,85.47,52.5,80.1,664974
+DEA030,Dealer 30,Watch,83.33,51.4,80.1,644327
+DEA006,Dealer 6,Growth,83.02,54.6,80.7,611754
+DEA018,Dealer 18,Strategic,81.23,52.9,79.3,594394
+DEA013,Dealer 13,Growth,79.98,50.9,80.6,601648
+DEA015,Dealer 15,Growth,79.85,52.7,80.2,580127
+DEA009,Dealer 9,Core,78.36,51.1,81.9,582302
+DEA023,Dealer 23,Watch,78.03,55.2,79.2,523241
+DEA022,Dealer 22,Core,74.92,53.0,80.3,503010
+DEA004,Dealer 4,Strategic,74.69,48.9,79.6,536643
+DEA003,Dealer 3,Growth,74.63,51.8,79.7,507832
+DEA002,Dealer 2,Growth,73.12,52.6,77.9,467815
+DEA021,Dealer 21,Strategic,72.09,49.0,81.9,508914
+DEA010,Dealer 10,Core,71.86,51.2,80.7,476746
+DEA014,Dealer 14,Growth,71.28,53.6,79.1,437524
+DEA017,Dealer 17,Watch,70.81,52.0,78.6,442369
+DEA012,Dealer 12,Strategic,70.75,50.9,80.0,459918
+DEA001,Dealer 1,Strategic,67.91,50.6,82.0,430216
+DEA029,Dealer 29,Core,66.69,51.2,81.5,403528
+DEA027,Dealer 27,Strategic,66.61,48.1,79.3,420782
+DEA026,Dealer 26,Growth,66.38,52.7,79.1,371839
+DEA005,Dealer 5,Core,65.79,50.2,80.9,397405
+DEA019,Dealer 19,Strategic,65.67,49.0,80.7,405735
