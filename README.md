@@ -32,6 +32,7 @@ This is a channel sales forecast scenario console using synthetic dealer, promot
 - `index.html` - interactive scenario pack
 - `src/` - scenario data, UI logic, and styling
 - `data/` - synthetic operating data
+- `analysis/` - methodology, executive findings, SQL checks, and ranked analytical outputs
 - `analysis/methodology.md` - scenario scoring assumptions
 - `scripts/score_operating_data.py` - channel scenario scoring script
 - `docs/images/dashboard.png` - rendered screenshot
