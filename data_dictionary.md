@@ -1,7 +1,9 @@
 # Data Dictionary
 
-- signal: named operating or customer metric
-- segment: business segment or owner group
-- status: current data or operating condition
-- finding: analytical interpretation of the signal
-- risk: prioritization level for action
+| Field | Meaning |
+|---|---|
+| scenario | Sales planning option |
+| channel_growth | Expected growth rate |
+| forecast_variance | Gap between forecast and expected actuals |
+| promo_roi | Promotion return on investment |
+| comp_flags | Compensation or incentive review flags |

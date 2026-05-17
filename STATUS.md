@@ -1,13 +1,17 @@
 # Status
 
-- Project: Channel Sales Forecasting Console
-- GitHub: https://github.com/Saurav-Kanegaonkar/Channel-Sales-Forecasting-Console
-- Status: pushed
-- Resume Link Ready: Yes
+Channel Sales Forecasting Console has been reworked into a distinct sales forecast scenario pack format.
 
-## What Exists
+## Current state
 
-- Dashboard page with four labeled outputs
-- Synthetic operating data and data dictionary
-- README with motivation, interpretation, output walkthrough, and local run instructions
-- Screenshot embedded at docs/images/dashboard.png
+- Distinct visual system and interaction model
+- README includes motivation, outputs, recommendations, and run instructions
+- Methodology note added under `analysis/`
+- Lightweight scoring script added under `scripts/`
+- Screenshot refreshed under `docs/images/dashboard.png`
+
+## Next useful improvements
+
+- Replace synthetic data with public or company-adjacent data where available
+- Add unit checks for metric calculations
+- Add deployment link after final review

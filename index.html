@@ -7,42 +7,35 @@
   <link rel="stylesheet" href="src/styles.css">
 </head>
 <body>
-  <main class="app">
-    <header class="hero">
-      <div>
-        <p class="eyebrow">Sales Analytics</p>
-        <h1>Channel Sales Forecasting Console</h1>
-        <p>Sales leaders need a trusted view of channel performance, forecast risk, promotion ROI, territory coverage, and incentive-model readiness.</p>
-      </div>
-      <div class="hero-card">
-        <span>Decision risk</span>
-        <strong>4</strong>
-        <small>review</small>
-      </div>
+  <main class="forecast-pack">
+    <header class="forecast-header">
+      <p class="label">Sales Planning Scenario Pack</p>
+      <h1>Channel Sales Forecasting Console</h1>
+      <p>Test how promotion response, territory coverage, and compensation risk change the forecast before the monthly sales planning meeting.</p>
     </header>
-    <section>
-      <span class="output-tag">Output 1 · Executive pulse</span>
-      <div class="metric-grid" id="metrics"></div>
-    </section>
-    <section class="grid">
-      <article class="panel wide">
-        <p class="eyebrow">Diagnostic table</p>
-        <span class="output-tag">Output 2 · Operating queue</span>
-        <h2>Where the team should focus next</h2>
-        <div id="table"></div>
+    <section class="scenario-panel">
+      <article class="scenario-controls">
+        <p class="label">Scenario controls</p>
+        <button data-scenario="base" class="active">Base plan</button>
+        <button data-scenario="promo">Promotion push</button>
+        <button data-scenario="coverage">Territory rebalance</button>
       </article>
-      <article class="panel">
-        <p class="eyebrow">What the data says</p>
-        <span class="output-tag">Output 3 · Analytical readout</span>
-        <h2>Signals behind the recommendation</h2>
-        <div id="signals"></div>
+      <article class="forecast-card">
+        <p class="label">Forecast outcome</p>
+        <h2 id="scenario-name"></h2>
+        <div id="forecast-metrics" class="forecast-metrics"></div>
       </article>
     </section>
-    <section class="panel">
-      <p class="eyebrow">Recommendation memo</p>
-      <span class="output-tag">Output 4 · Next actions</span>
-      <h2>Recommended moves</h2>
-      <div id="recs" class="memo-grid"></div>
+    <section class="territory-grid" id="territories"></section>
+    <section class="briefing">
+      <article>
+        <p class="label">What the data says</p>
+        <div id="insights"></div>
+      </article>
+      <article>
+        <p class="label">Sales recommendation</p>
+        <div id="recommendations"></div>
+      </article>
     </section>
   </main>
   <script src="src/data.js"></script>

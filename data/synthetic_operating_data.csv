@@ -1,5 +1,4 @@
-signal,segment,status,finding,risk
-"Dealer East","Distribution","Growing","Promotion upside","High"
-"Dealer West","Distribution","Stale","Forecast gap","High"
-"Commercial","B2B","Fresh","Territory balance","Medium"
-"Retail","Dealer","Fresh","Stable demand","Low"
+scenario,channel_growth,forecast_variance,promo_roi,comp_flags
+Base plan,12.4,8.7,2.9,4
+Promotion push,15.8,11.2,2.4,7
+Territory rebalance,13.9,5.1,3.1,2

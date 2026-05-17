@@ -1,11 +1,27 @@
-const data = window.dashboardData;
-const el = (tag, className, html) => {
-  const node = document.createElement(tag);
-  if (className) node.className = className;
-  if (html) node.innerHTML = html;
-  return node;
-};
-document.querySelector("#metrics").replaceChildren(...data.cards.map((card) => el("article", "metric", `<span>${card[0]}</span><strong>${card[1]}</strong><small>${card[2]}</small>`)));
-document.querySelector("#table").innerHTML = `<table><thead><tr><th>Signal</th><th>Segment</th><th>Status</th><th>Finding</th><th>Risk</th></tr></thead><tbody>${data.table.map((row) => `<tr><td>${row[0]}</td><td>${row[1]}</td><td>${row[2]}</td><td>${row[3]}</td><td><b class="${row[4].toLowerCase()}">${row[4]}</b></td></tr>`).join("")}</tbody></table>`;
-document.querySelector("#signals").replaceChildren(...data.dataSays.map((item) => el("div", "signal", item)));
-document.querySelector("#recs").replaceChildren(...data.recs.map((item, index) => el("article", "memo", `<strong>${index + 1}. Recommendation</strong>${item}`)));
+const data = window.projectData;
+let scenarioKey = "base";
+
+function render() {
+  const scenario = data.scenarios[scenarioKey];
+  document.querySelector("#scenario-name").textContent = scenario.name;
+  document.querySelector("#forecast-metrics").innerHTML = scenario.metrics.map(([label, value]) => `<div><span>${label}</span><strong>${value}</strong></div>`).join("");
+  document.querySelector("#insights").innerHTML = scenario.insights.map((item) => `<p>${item}</p>`).join("");
+  document.querySelector("#recommendations").innerHTML = scenario.recs.map((item, index) => `<p><b>${index + 1}</b> ${item}</p>`).join("");
+  document.querySelector("#territories").innerHTML = data.territories.map(([name, status, score, note]) => `
+    <article>
+      <span>${status}</span>
+      <h3>${name}</h3>
+      <div class="gauge"><i style="height:${score}%"></i></div>
+      <p>${note}</p>
+    </article>
+  `).join("");
+  document.querySelectorAll("[data-scenario]").forEach((button) => {
+    button.classList.toggle("active", button.dataset.scenario === scenarioKey);
+    button.addEventListener("click", () => {
+      scenarioKey = button.dataset.scenario;
+      render();
+    }, { once: true });
+  });
+}
+
+render();
