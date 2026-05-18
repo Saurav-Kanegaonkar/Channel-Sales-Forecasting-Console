@@ -1,181 +1,37 @@
-action_id,entity_id,action_type,effort_hours,expected_lift_pct,status
-ACT0001,DEA023,monitor,12,3.4,In Review
-ACT0002,DEA030,escalate,24,12.8,Proposed
-ACT0003,DEA028,validate,19,22.0,Complete
-ACT0004,DEA022,escalate,19,8.7,Complete
-ACT0005,DEA029,automate,18,12.6,In Review
-ACT0006,DEA009,escalate,26,17.8,In Review
-ACT0007,DEA027,prioritize,29,6.5,Ready
-ACT0008,DEA015,monitor,36,20.6,Complete
-ACT0009,DEA009,monitor,27,8.9,In Review
-ACT0010,DEA029,validate,16,14.0,In Review
-ACT0011,DEA004,escalate,27,5.3,Complete
-ACT0012,DEA016,automate,12,17.8,Ready
-ACT0013,DEA030,prioritize,33,17.8,Proposed
-ACT0014,DEA021,automate,39,6.3,Ready
-ACT0015,DEA031,automate,33,6.6,Proposed
-ACT0016,DEA018,automate,43,12.6,Proposed
-ACT0017,DEA018,escalate,39,15.7,Complete
-ACT0018,DEA007,automate,6,18.4,Proposed
-ACT0019,DEA031,monitor,38,4.7,Proposed
-ACT0020,DEA003,escalate,36,19.7,In Review
-ACT0021,DEA008,escalate,10,23.9,Proposed
-ACT0022,DEA010,automate,14,22.7,Ready
-ACT0023,DEA031,validate,37,15.3,Proposed
-ACT0024,DEA019,monitor,42,5.5,In Review
-ACT0025,DEA018,escalate,36,5.6,Complete
-ACT0026,DEA011,monitor,30,13.5,Proposed
-ACT0027,DEA015,automate,42,22.8,Complete
-ACT0028,DEA006,validate,21,22.2,Ready
-ACT0029,DEA022,escalate,31,8.1,In Review
-ACT0030,DEA020,automate,19,19.5,Ready
-ACT0031,DEA024,automate,3,24.0,Complete
-ACT0032,DEA001,prioritize,39,4.1,Proposed
-ACT0033,DEA011,prioritize,13,15.2,Ready
-ACT0034,DEA006,escalate,37,11.5,Proposed
-ACT0035,DEA005,prioritize,5,4.2,Proposed
-ACT0036,DEA016,validate,43,11.0,Complete
-ACT0037,DEA002,monitor,23,8.4,In Review
-ACT0038,DEA014,validate,34,16.6,Proposed
-ACT0039,DEA011,escalate,33,21.8,Proposed
-ACT0040,DEA028,monitor,26,11.5,In Review
-ACT0041,DEA021,escalate,36,18.0,Complete
-ACT0042,DEA015,validate,20,9.4,In Review
-ACT0043,DEA001,escalate,10,6.4,Ready
-ACT0044,DEA027,validate,3,21.9,Complete
-ACT0045,DEA013,prioritize,33,15.5,Ready
-ACT0046,DEA001,monitor,22,13.8,Ready
-ACT0047,DEA025,monitor,21,5.6,Ready
-ACT0048,DEA020,automate,43,14.8,Proposed
-ACT0049,DEA005,escalate,7,11.8,Complete
-ACT0050,DEA024,automate,22,17.7,Proposed
-ACT0051,DEA006,validate,23,15.7,In Review
-ACT0052,DEA007,monitor,10,5.4,Proposed
-ACT0053,DEA002,escalate,36,2.3,Complete
-ACT0054,DEA027,escalate,26,14.0,Ready
-ACT0055,DEA023,validate,16,7.8,Complete
-ACT0056,DEA017,monitor,27,4.0,Ready
-ACT0057,DEA002,validate,27,3.0,In Review
-ACT0058,DEA005,monitor,36,23.2,In Review
-ACT0059,DEA025,automate,42,22.5,In Review
-ACT0060,DEA019,monitor,4,12.1,Ready
-ACT0061,DEA003,validate,5,5.8,In Review
-ACT0062,DEA031,automate,17,3.4,Complete
-ACT0063,DEA022,monitor,4,10.3,Complete
-ACT0064,DEA001,validate,21,4.1,Ready
-ACT0065,DEA024,prioritize,34,19.9,Proposed
-ACT0066,DEA010,monitor,38,20.3,In Review
-ACT0067,DEA029,automate,33,4.4,Ready
-ACT0068,DEA028,automate,37,16.2,Proposed
-ACT0069,DEA023,prioritize,17,16.7,Proposed
-ACT0070,DEA016,validate,12,22.0,Ready
-ACT0071,DEA020,prioritize,26,7.8,In Review
-ACT0072,DEA022,prioritize,5,9.5,Proposed
-ACT0073,DEA012,prioritize,13,22.2,Ready
-ACT0074,DEA016,monitor,44,20.8,Complete
-ACT0075,DEA016,validate,41,15.1,Complete
-ACT0076,DEA002,validate,4,15.2,Proposed
-ACT0077,DEA017,validate,35,8.5,In Review
-ACT0078,DEA021,automate,36,14.5,In Review
-ACT0079,DEA005,automate,8,23.7,Proposed
-ACT0080,DEA009,monitor,15,18.1,Complete
-ACT0081,DEA019,prioritize,13,16.2,Proposed
-ACT0082,DEA010,escalate,39,21.7,In Review
-ACT0083,DEA016,escalate,11,5.6,Ready
-ACT0084,DEA025,validate,40,10.4,In Review
-ACT0085,DEA008,validate,19,17.0,Proposed
-ACT0086,DEA022,prioritize,14,13.6,Complete
-ACT0087,DEA017,prioritize,7,11.3,In Review
-ACT0088,DEA010,monitor,32,12.7,Proposed
-ACT0089,DEA010,prioritize,22,22.7,Complete
-ACT0090,DEA014,prioritize,18,18.3,Proposed
-ACT0091,DEA029,automate,26,15.1,Complete
-ACT0092,DEA010,validate,20,21.5,In Review
-ACT0093,DEA002,validate,8,7.6,In Review
-ACT0094,DEA026,automate,8,15.6,Complete
-ACT0095,DEA031,automate,8,14.9,Ready
-ACT0096,DEA026,monitor,4,20.3,Ready
-ACT0097,DEA017,validate,38,6.9,Proposed
-ACT0098,DEA026,escalate,29,18.0,Ready
-ACT0099,DEA027,escalate,6,5.3,In Review
-ACT0100,DEA022,validate,27,3.5,Complete
-ACT0101,DEA012,validate,24,12.1,Complete
-ACT0102,DEA017,prioritize,13,12.1,In Review
-ACT0103,DEA014,prioritize,8,19.3,Ready
-ACT0104,DEA012,prioritize,18,7.3,Complete
-ACT0105,DEA010,automate,30,14.9,Complete
-ACT0106,DEA008,escalate,24,12.4,In Review
-ACT0107,DEA002,prioritize,42,21.5,Complete
-ACT0108,DEA004,monitor,5,18.3,Complete
-ACT0109,DEA014,automate,39,9.7,Proposed
-ACT0110,DEA010,escalate,11,22.9,Complete
-ACT0111,DEA015,automate,22,14.4,Complete
-ACT0112,DEA019,prioritize,8,8.5,Ready
-ACT0113,DEA020,prioritize,12,7.1,Ready
-ACT0114,DEA032,monitor,20,16.1,Ready
-ACT0115,DEA026,prioritize,7,18.5,Proposed
-ACT0116,DEA001,prioritize,40,22.4,In Review
-ACT0117,DEA002,escalate,3,11.9,Ready
-ACT0118,DEA018,escalate,40,20.4,Proposed
-ACT0119,DEA031,escalate,11,12.6,Complete
-ACT0120,DEA026,validate,37,2.7,Proposed
-ACT0121,DEA016,escalate,16,7.9,In Review
-ACT0122,DEA005,automate,13,19.6,In Review
-ACT0123,DEA022,validate,27,13.4,In Review
-ACT0124,DEA029,prioritize,42,18.8,Ready
-ACT0125,DEA019,prioritize,29,22.9,Complete
-ACT0126,DEA024,automate,25,8.8,Complete
-ACT0127,DEA030,monitor,15,16.9,Ready
-ACT0128,DEA004,automate,31,22.1,In Review
-ACT0129,DEA032,validate,39,19.9,In Review
-ACT0130,DEA025,automate,39,8.4,Ready
-ACT0131,DEA018,automate,15,13.4,Complete
-ACT0132,DEA030,validate,9,2.1,Complete
-ACT0133,DEA016,monitor,7,6.6,Ready
-ACT0134,DEA009,escalate,4,17.5,In Review
-ACT0135,DEA022,monitor,3,8.1,Ready
-ACT0136,DEA024,automate,7,9.2,Ready
-ACT0137,DEA014,prioritize,22,10.6,Ready
-ACT0138,DEA030,validate,34,6.7,Ready
-ACT0139,DEA014,automate,13,6.3,Complete
-ACT0140,DEA024,escalate,30,2.8,In Review
-ACT0141,DEA017,prioritize,5,14.4,Proposed
-ACT0142,DEA001,prioritize,20,7.2,Proposed
-ACT0143,DEA021,monitor,16,15.3,Ready
-ACT0144,DEA019,validate,38,16.4,Ready
-ACT0145,DEA019,monitor,15,16.3,Ready
-ACT0146,DEA014,automate,42,11.8,Ready
-ACT0147,DEA026,prioritize,36,12.1,Ready
-ACT0148,DEA012,monitor,27,12.9,Proposed
-ACT0149,DEA021,prioritize,15,12.2,Proposed
-ACT0150,DEA028,automate,38,19.9,Proposed
-ACT0151,DEA018,automate,14,5.6,Ready
-ACT0152,DEA012,monitor,9,22.3,Ready
-ACT0153,DEA030,automate,34,11.1,Complete
-ACT0154,DEA014,escalate,24,18.1,Complete
-ACT0155,DEA010,validate,34,20.9,Complete
-ACT0156,DEA021,monitor,41,11.6,Complete
-ACT0157,DEA003,escalate,17,21.9,Ready
-ACT0158,DEA027,validate,37,21.6,Complete
-ACT0159,DEA016,prioritize,30,13.4,Complete
-ACT0160,DEA025,escalate,25,23.7,Complete
-ACT0161,DEA001,prioritize,21,2.2,Ready
-ACT0162,DEA030,escalate,4,20.3,In Review
-ACT0163,DEA009,monitor,36,14.7,Complete
-ACT0164,DEA032,monitor,38,3.0,Complete
-ACT0165,DEA013,monitor,32,5.8,Complete
-ACT0166,DEA014,prioritize,33,11.5,In Review
-ACT0167,DEA005,escalate,22,21.6,Ready
-ACT0168,DEA004,automate,21,8.4,Ready
-ACT0169,DEA028,prioritize,42,22.5,In Review
-ACT0170,DEA001,validate,27,18.2,Complete
-ACT0171,DEA024,validate,35,6.9,Complete
-ACT0172,DEA011,prioritize,12,23.0,Complete
-ACT0173,DEA023,automate,18,22.6,In Review
-ACT0174,DEA009,automate,30,21.1,Proposed
-ACT0175,DEA002,validate,29,16.1,Ready
-ACT0176,DEA009,automate,37,6.4,Complete
-ACT0177,DEA014,automate,42,19.9,In Review
-ACT0178,DEA027,escalate,2,22.6,Complete
-ACT0179,DEA028,monitor,10,11.8,Ready
-ACT0180,DEA014,monitor,29,3.5,Ready
+dealer_id,dealer_name,priority_score,risk_tier,recommended_action
+D012,West Channel Partner 12,63.6,Critical,Rebalance coverage and protect constrained supply
+D004,West Channel Partner 4,53.4,Watch,Review incentive payout before month close
+D008,West Channel Partner 8,51.0,Watch,Rebalance coverage and protect constrained supply
+D020,West Channel Partner 20,47.7,Watch,Review incentive payout before month close
+D016,West Channel Partner 16,47.2,Watch,Rebalance coverage and protect constrained supply
+D028,West Channel Partner 28,47.2,Watch,Rebalance coverage and protect constrained supply
+D034,South Channel Partner 34,43.8,Watch,Review incentive payout before month close
+D024,West Channel Partner 24,43.6,Watch,Rebalance coverage and protect constrained supply
+D032,West Channel Partner 32,41.7,Watch,Rebalance coverage and protect constrained supply
+D006,South Channel Partner 6,40.4,Watch,Reset forecast assumptions with regional owner
+D030,South Channel Partner 30,39.0,Watch,Review incentive payout before month close
+D036,West Channel Partner 36,39.0,Watch,Maintain plan and monitor weekly
+D022,South Channel Partner 22,37.6,Watch,Review incentive payout before month close
+D019,Central Channel Partner 19,37.5,Watch,Rebalance coverage and protect constrained supply
+D014,South Channel Partner 14,37.3,Watch,Rebalance coverage and protect constrained supply
+D003,Central Channel Partner 3,37.0,Watch,Rebalance coverage and protect constrained supply
+D007,Central Channel Partner 7,34.7,Watch,Review incentive payout before month close
+D010,South Channel Partner 10,33.3,Stable,Rebalance coverage and protect constrained supply
+D018,South Channel Partner 18,33.1,Stable,Maintain plan and monitor weekly
+D026,South Channel Partner 26,29.0,Stable,Review incentive payout before month close
+D002,South Channel Partner 2,28.7,Stable,Maintain plan and monitor weekly
+D027,Central Channel Partner 27,27.5,Stable,Rebalance coverage and protect constrained supply
+D015,Central Channel Partner 15,25.8,Stable,Review incentive payout before month close
+D011,Central Channel Partner 11,25.4,Stable,Maintain plan and monitor weekly
+D031,Central Channel Partner 31,24.5,Stable,Maintain plan and monitor weekly
+D025,North Channel Partner 25,22.5,Stable,Rebalance coverage and protect constrained supply
+D013,North Channel Partner 13,22.1,Stable,Maintain plan and monitor weekly
+D035,Central Channel Partner 35,20.6,Stable,Maintain plan and monitor weekly
+D033,North Channel Partner 33,18.2,Stable,Maintain plan and monitor weekly
+D005,North Channel Partner 5,17.3,Stable,Maintain plan and monitor weekly
+D021,North Channel Partner 21,17.3,Stable,Maintain plan and monitor weekly
+D001,North Channel Partner 1,17.2,Stable,Maintain plan and monitor weekly
+D009,North Channel Partner 9,15.2,Stable,Maintain plan and monitor weekly
+D029,North Channel Partner 29,14.5,Stable,Maintain plan and monitor weekly
+D023,Central Channel Partner 23,14.3,Stable,Maintain plan and monitor weekly
+D017,North Channel Partner 17,11.6,Stable,Maintain plan and monitor weekly

@@ -5,48 +5,44 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Channel Sales Forecasting Console</title>
   <link rel="stylesheet" href="src/styles.css">
-<style>:root{--bg:#f7f8fa;--accent:#c9413b;--ink:#162b4d}</style></head>
+</head>
 <body>
-  <main class="shell">
-    <header class="hero">
-      <p>channel sales planning</p>
-      <h1>Channel Sales Forecasting Console</h1>
-      <span>Decision artifact for channel sales planning: source-style data, ranked analysis, and recommendations built around dealer-level operating signals.</span>
+  <main class="app-shell">
+    <header class="topbar">
+      <div>
+        <p class="eyebrow">Channel sales analytics</p>
+        <h1>Channel Sales Forecasting Console</h1>
+        <p class="lede">A decision console for distributor and dealer sales planning, forecast quality, promotion ROI, incentive exposure, and territory coverage.</p>
+      </div>
+      <div class="status-strip" aria-label="Planning status">
+        <span>Monthly readout</span>
+        <strong>Action queue ready</strong>
+      </div>
     </header>
-    <section class="metrics">
-      <article><small>Source rows</small><strong>4.2K+</strong><em>modeled</em></article>
-      <article><small>Risk queue</small><strong>25</strong><em>ranked</em></article>
-      <article><small>Prep saved</small><strong>6 hrs</strong><em>weekly</em></article>
-      <article><small>Decision lanes</small><strong>3</strong><em>ready</em></article>
-    </section>
-    <section class="grid">
-      <article class="panel">
-        <p class="kicker">Analytical queue</p>
-        <h2>Highest priority dealer signals</h2>
-        <table>
-          <thead><tr><th>Signal</th><th>Owner</th><th>Metric</th><th>Action</th></tr></thead>
-          <tbody>
-            <tr><td>Coverage risk</td><td>Ops</td><td>High</td><td>Escalate before review</td></tr>
-            <tr><td>Metric variance</td><td>Analytics</td><td>Watch</td><td>Validate source definition</td></tr>
-            <tr><td>Growth pocket</td><td>Business</td><td>Strong</td><td>Prioritize next sprint</td></tr>
-          </tbody>
-        </table>
-      </article>
-      <article class="panel memo">
-        <p class="kicker">Executive finding</p>
-        <h2>What the data says</h2>
-        <p>The strongest recommendations appear when performance, operational readiness, and measurement quality overlap.</p>
-        <p>The project turns repeated stakeholder questions into a ranked operating queue instead of another static KPI page.</p>
-      </article>
-    </section>
-    <section class="panel">
-      <p class="kicker">Recommendations</p>
-      <div class="recs">
-        <article><b>1</b><span>Prioritize high-value segments where risk and opportunity overlap.</span></article>
-        <article><b>2</b><span>Use source checks before scaling the recommendation into recurring reporting.</span></article>
-        <article><b>3</b><span>Convert the ranked queue into a stakeholder-ready operating digest.</span></article>
+
+    <section class="control-bar" aria-label="Console controls">
+      <div class="tabs" role="tablist" aria-label="Console sections">
+        <button class="tab active" type="button" data-view="executive">Forecast</button>
+        <button class="tab" type="button" data-view="dealers">Dealer Queue</button>
+        <button class="tab" type="button" data-view="territory">Territory</button>
+        <button class="tab" type="button" data-view="quality">Data Trust</button>
+      </div>
+      <div class="filters">
+        <label>
+          <span>Region</span>
+          <select id="regionFilter"></select>
+        </label>
+        <label>
+          <span>Channel</span>
+          <select id="channelFilter"></select>
+        </label>
       </div>
     </section>
+
+    <section id="viewRoot" class="view-root" aria-live="polite"></section>
   </main>
+
+  <script src="src/data.js"></script>
+  <script src="src/app.js"></script>
 </body>
 </html>

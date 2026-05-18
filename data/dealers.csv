@@ -1,37 +1,37 @@
-dealer_id,dealer_name,region,channel_type,territory_manager
-D001,Prime Dealer 1,East,Dealer,Patel
-D002,Heritage Dealer 2,West,Distributor,Kim
-D003,Prime Dealer 3,Central,Distributor,Nguyen
-D004,Prime Dealer 4,South,Commercial,Kim
-D005,Valley Dealer 5,East,Distributor,Nguyen
-D006,Valley Dealer 6,West,Retail,Patel
-D007,Valley Dealer 7,Central,Commercial,Rivera
-D008,Valley Dealer 8,South,Dealer,Nguyen
-D009,Summit Dealer 9,East,Retail,Rivera
-D010,Summit Dealer 10,West,Retail,Johnson
-D011,Summit Dealer 11,Central,Retail,Patel
-D012,Valley Dealer 12,South,Retail,Patel
-D013,Valley Dealer 13,East,Commercial,Kim
-D014,Metro Dealer 14,West,Retail,Patel
-D015,Apex Dealer 15,Central,Dealer,Johnson
-D016,Prime Dealer 16,South,Retail,Nguyen
-D017,Prime Dealer 17,East,Distributor,Johnson
-D018,Prime Dealer 18,West,Retail,Nguyen
-D019,Heritage Dealer 19,Central,Retail,Kim
-D020,Valley Dealer 20,South,Dealer,Kim
-D021,Apex Dealer 21,East,Commercial,Kim
-D022,Valley Dealer 22,West,Retail,Kim
-D023,Apex Dealer 23,Central,Distributor,Nguyen
-D024,Valley Dealer 24,South,Distributor,Rivera
-D025,Metro Dealer 25,East,Distributor,Kim
-D026,Prime Dealer 26,West,Retail,Rivera
-D027,Summit Dealer 27,Central,Dealer,Nguyen
-D028,Metro Dealer 28,South,Distributor,Johnson
-D029,Summit Dealer 29,East,Commercial,Kim
-D030,Heritage Dealer 30,West,Retail,Patel
-D031,Valley Dealer 31,Central,Distributor,Nguyen
-D032,Heritage Dealer 32,South,Distributor,Patel
-D033,Valley Dealer 33,East,Dealer,Kim
-D034,Valley Dealer 34,West,Distributor,Rivera
-D035,Valley Dealer 35,Central,Distributor,Johnson
-D036,Summit Dealer 36,South,Distributor,Rivera
+dealer_id,dealer_name,region,channel_type,territory_manager,product_mix,base_daily_units,avg_unit_price
+D001,North Channel Partner 1,North,Commercial fleet,Patel,Battery platform,60.0,322
+D002,South Channel Partner 2,South,Home center,Kim,Parts and service,123.26,435
+D003,Central Channel Partner 3,Central,Independent dealer,Nguyen,Fleet package,67.2,381
+D004,West Channel Partner 4,West,Distributor,Rivera,Pro handheld,78.06,656
+D005,North Channel Partner 5,North,Commercial fleet,Morgan,Battery platform,126.0,354
+D006,South Channel Partner 6,South,Home center,Lopez,Parts and service,192.7,526
+D007,Central Channel Partner 7,Central,Independent dealer,Patel,Fleet package,42.0,325
+D008,West Channel Partner 8,West,Distributor,Kim,Pro handheld,74.87,421
+D009,North Channel Partner 9,North,Commercial fleet,Nguyen,Battery platform,78.0,568
+D010,South Channel Partner 10,South,Home center,Rivera,Parts and service,196.17,323
+D011,Central Channel Partner 11,Central,Independent dealer,Morgan,Fleet package,112.35,411
+D012,West Channel Partner 12,West,Distributor,Lopez,Pro handheld,167.26,524
+D013,North Channel Partner 13,North,Commercial fleet,Patel,Battery platform,76.8,539
+D014,South Channel Partner 14,South,Home center,Kim,Parts and service,192.7,452
+D015,Central Channel Partner 15,Central,Independent dealer,Nguyen,Fleet package,37.8,698
+D016,West Channel Partner 16,West,Distributor,Rivera,Pro handheld,89.21,667
+D017,North Channel Partner 17,North,Commercial fleet,Morgan,Battery platform,108.0,484
+D018,South Channel Partner 18,South,Home center,Lopez,Parts and service,123.26,389
+D019,Central Channel Partner 19,Central,Independent dealer,Patel,Fleet package,66.15,700
+D020,West Channel Partner 20,West,Distributor,Kim,Pro handheld,125.85,362
+D021,North Channel Partner 21,North,Commercial fleet,Nguyen,Battery platform,56.4,504
+D022,South Channel Partner 22,South,Home center,Rivera,Parts and service,83.33,493
+D023,Central Channel Partner 23,Central,Independent dealer,Morgan,Fleet package,84.0,619
+D024,West Channel Partner 24,West,Distributor,Lopez,Pro handheld,109.92,332
+D025,North Channel Partner 25,North,Commercial fleet,Patel,Battery platform,112.8,584
+D026,South Channel Partner 26,South,Home center,Kim,Parts and service,88.54,503
+D027,Central Channel Partner 27,Central,Independent dealer,Nguyen,Fleet package,48.3,592
+D028,West Channel Partner 28,West,Distributor,Rivera,Pro handheld,116.29,631
+D029,North Channel Partner 29,North,Commercial fleet,Morgan,Battery platform,138.0,495
+D030,South Channel Partner 30,South,Home center,Lopez,Parts and service,189.22,408
+D031,Central Channel Partner 31,Central,Independent dealer,Patel,Fleet package,46.2,333
+D032,West Channel Partner 32,West,Distributor,Kim,Pro handheld,103.55,705
+D033,North Channel Partner 33,North,Commercial fleet,Nguyen,Battery platform,87.6,350
+D034,South Channel Partner 34,South,Home center,Rivera,Parts and service,112.84,361
+D035,Central Channel Partner 35,Central,Independent dealer,Morgan,Fleet package,88.2,452
+D036,West Channel Partner 36,West,Distributor,Lopez,Pro handheld,149.74,635

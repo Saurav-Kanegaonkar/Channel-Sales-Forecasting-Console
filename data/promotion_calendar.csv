@@ -1,49 +1,103 @@
-promo_id,start_date,region,channel_type,promo_type,expected_roi
-PR001,2026-03-18,South,Retail,Rebate,1.6
-PR002,2026-03-06,Central,Dealer,Bundle,2.6
-PR003,2026-01-17,Central,Distributor,Rebate,2.9
-PR004,2026-03-09,West,Dealer,Rebate,4.0
-PR005,2026-04-08,South,Dealer,Seasonal,2.4
-PR006,2026-03-29,East,Dealer,Rebate,2.7
-PR007,2026-04-18,Central,Commercial,Rebate,3.5
-PR008,2026-05-07,West,Retail,Rebate,2.3
-PR009,2026-01-11,East,Commercial,Rebate,1.4
-PR010,2026-03-23,South,Retail,Financing,2.3
-PR011,2026-02-23,Central,Distributor,Seasonal,2.9
-PR012,2026-04-21,Central,Distributor,Financing,4.0
-PR013,2026-04-19,East,Commercial,Seasonal,3.0
-PR014,2026-02-05,South,Dealer,Bundle,4.2
-PR015,2026-04-04,Central,Distributor,Rebate,1.7
-PR016,2026-03-26,Central,Commercial,Bundle,3.8
-PR017,2026-02-28,Central,Retail,Financing,4.6
-PR018,2026-03-19,West,Retail,Bundle,2.7
-PR019,2026-01-15,West,Commercial,Rebate,3.7
-PR020,2026-04-25,South,Commercial,Bundle,1.8
-PR021,2026-02-08,East,Commercial,Financing,4.1
-PR022,2026-05-07,South,Dealer,Bundle,4.5
-PR023,2026-04-26,East,Distributor,Seasonal,2.9
-PR024,2026-04-18,East,Retail,Rebate,3.1
-PR025,2026-01-23,East,Commercial,Financing,3.0
-PR026,2026-03-27,Central,Retail,Bundle,1.5
-PR027,2026-02-07,Central,Commercial,Rebate,4.7
-PR028,2026-02-01,East,Dealer,Seasonal,3.9
-PR029,2026-02-24,East,Retail,Bundle,4.8
-PR030,2026-04-22,South,Distributor,Financing,4.0
-PR031,2026-03-27,South,Dealer,Rebate,3.6
-PR032,2026-04-09,South,Commercial,Seasonal,3.6
-PR033,2026-04-22,East,Retail,Bundle,4.7
-PR034,2026-02-22,East,Distributor,Rebate,2.5
-PR035,2026-04-07,East,Retail,Bundle,3.8
-PR036,2026-05-11,Central,Dealer,Financing,1.7
-PR037,2026-01-08,Central,Dealer,Bundle,2.3
-PR038,2026-01-11,Central,Dealer,Bundle,4.5
-PR039,2026-01-07,Central,Distributor,Financing,1.9
-PR040,2026-04-07,South,Distributor,Financing,2.5
-PR041,2026-03-20,West,Distributor,Rebate,4.0
-PR042,2026-01-13,West,Distributor,Financing,3.6
-PR043,2026-03-28,West,Distributor,Bundle,2.2
-PR044,2026-03-06,East,Dealer,Financing,2.1
-PR045,2026-02-07,South,Distributor,Bundle,1.8
-PR046,2026-02-05,Central,Dealer,Bundle,2.2
-PR047,2026-01-12,East,Retail,Seasonal,2.2
-PR048,2026-02-25,South,Commercial,Bundle,3.8
+promo_id,start_date,dealer_id,region,channel_type,promo_type,expected_roi,ad_spend
+PR001,2026-03-18,D001,North,Commercial fleet,Bundle,2.7,17096
+PR002,2025-10-05,D001,North,Commercial fleet,Rebate,1.9,20414
+PR003,2026-04-22,D001,North,Commercial fleet,Co-op advertising,2.4,20492
+PR004,2025-10-07,D002,South,Home center,Spring sell-in,2.0,10849
+PR005,2026-04-03,D002,South,Home center,Bundle,2.6,10789
+PR006,2026-02-27,D003,Central,Independent dealer,Rebate,2.2,3239
+PR007,2026-03-04,D003,Central,Independent dealer,Spring sell-in,2.8,4924
+PR008,2026-02-25,D003,Central,Independent dealer,Rebate,1.7,15363
+PR009,2026-03-21,D004,West,Distributor,Rebate,1.6,6408
+PR010,2026-01-19,D004,West,Distributor,Co-op advertising,1.4,5792
+PR011,2026-02-17,D005,North,Commercial fleet,Rebate,3.2,8832
+PR012,2025-10-27,D005,North,Commercial fleet,Co-op advertising,2.7,9323
+PR013,2025-12-24,D005,North,Commercial fleet,Spring sell-in,3.2,9606
+PR014,2026-02-08,D006,South,Home center,Spring sell-in,3.0,5435
+PR015,2026-02-02,D006,South,Home center,Rebate,2.3,14313
+PR016,2025-12-23,D006,South,Home center,Co-op advertising,2.5,3265
+PR017,2025-10-28,D007,Central,Independent dealer,Spring sell-in,3.8,4666
+PR018,2026-03-17,D007,Central,Independent dealer,Co-op advertising,2.2,8935
+PR019,2026-02-28,D007,Central,Independent dealer,Co-op advertising,2.7,14143
+PR020,2026-03-19,D007,Central,Independent dealer,Co-op advertising,2.7,9418
+PR021,2025-11-20,D008,West,Distributor,Co-op advertising,1.6,9703
+PR022,2025-11-14,D008,West,Distributor,Rebate,1.4,8470
+PR023,2026-03-23,D008,West,Distributor,Co-op advertising,2.3,13647
+PR024,2026-02-09,D008,West,Distributor,Bundle,2.7,10865
+PR025,2025-10-05,D009,North,Commercial fleet,Bundle,2.7,7226
+PR026,2025-11-05,D009,North,Commercial fleet,Spring sell-in,3.2,16646
+PR027,2026-04-06,D009,North,Commercial fleet,Rebate,3.0,18644
+PR028,2026-03-17,D009,North,Commercial fleet,Co-op advertising,1.9,12568
+PR029,2026-03-17,D010,South,Home center,Bundle,3.7,19626
+PR030,2025-10-27,D010,South,Home center,Rebate,2.3,3804
+PR031,2026-04-08,D010,South,Home center,Spring sell-in,3.8,3237
+PR032,2026-02-20,D011,Central,Independent dealer,Spring sell-in,2.6,16536
+PR033,2026-01-06,D011,Central,Independent dealer,Spring sell-in,2.6,9290
+PR034,2025-12-14,D011,Central,Independent dealer,Bundle,2.8,10743
+PR035,2025-12-29,D011,Central,Independent dealer,Spring sell-in,2.7,4090
+PR036,2026-03-23,D012,West,Distributor,Rebate,1.9,19427
+PR037,2026-04-13,D012,West,Distributor,Rebate,2.2,15865
+PR038,2025-11-22,D013,North,Commercial fleet,Spring sell-in,4.0,9765
+PR039,2026-02-01,D013,North,Commercial fleet,Co-op advertising,2.6,4771
+PR040,2025-12-02,D014,South,Home center,Co-op advertising,2.5,5995
+PR041,2026-04-20,D014,South,Home center,Rebate,1.4,18482
+PR042,2026-04-12,D015,Central,Independent dealer,Co-op advertising,3.1,14395
+PR043,2026-03-24,D015,Central,Independent dealer,Spring sell-in,2.8,8304
+PR044,2025-12-29,D015,Central,Independent dealer,Bundle,2.6,3220
+PR045,2025-12-02,D015,Central,Independent dealer,Co-op advertising,2.4,16987
+PR046,2025-11-13,D016,West,Distributor,Spring sell-in,2.6,10542
+PR047,2025-11-17,D016,West,Distributor,Bundle,2.0,7079
+PR048,2025-11-04,D017,North,Commercial fleet,Spring sell-in,3.5,3653
+PR049,2025-11-03,D017,North,Commercial fleet,Bundle,2.2,3332
+PR050,2026-02-28,D017,North,Commercial fleet,Spring sell-in,2.5,13623
+PR051,2025-10-18,D018,South,Home center,Rebate,2.3,11466
+PR052,2025-10-03,D018,South,Home center,Spring sell-in,2.4,14333
+PR053,2026-01-28,D019,Central,Independent dealer,Co-op advertising,2.2,14430
+PR054,2026-03-05,D019,Central,Independent dealer,Rebate,1.9,17273
+PR055,2025-10-17,D019,Central,Independent dealer,Bundle,3.0,8073
+PR056,2025-11-07,D020,West,Distributor,Co-op advertising,2.1,12570
+PR057,2025-11-14,D020,West,Distributor,Bundle,3.2,9481
+PR058,2025-11-25,D020,West,Distributor,Bundle,3.1,5858
+PR059,2026-04-16,D020,West,Distributor,Bundle,2.9,4022
+PR060,2026-03-15,D021,North,Commercial fleet,Rebate,1.9,12280
+PR061,2026-04-06,D021,North,Commercial fleet,Bundle,2.5,9022
+PR062,2026-04-11,D022,South,Home center,Bundle,2.5,9312
+PR063,2026-03-24,D022,South,Home center,Rebate,1.2,18868
+PR064,2025-11-16,D023,Central,Independent dealer,Rebate,1.7,8363
+PR065,2025-10-07,D023,Central,Independent dealer,Spring sell-in,3.0,8443
+PR066,2025-12-23,D023,Central,Independent dealer,Co-op advertising,2.6,15672
+PR067,2026-03-02,D023,Central,Independent dealer,Bundle,4.3,3031
+PR068,2026-03-30,D024,West,Distributor,Bundle,3.5,10101
+PR069,2026-03-13,D024,West,Distributor,Rebate,1.9,12023
+PR070,2025-12-17,D024,West,Distributor,Bundle,3.3,18969
+PR071,2025-10-02,D025,North,Commercial fleet,Co-op advertising,2.6,16554
+PR072,2025-11-03,D025,North,Commercial fleet,Spring sell-in,3.6,16354
+PR073,2025-10-04,D026,South,Home center,Rebate,2.1,18861
+PR074,2026-01-06,D026,South,Home center,Bundle,1.3,8910
+PR075,2025-11-05,D027,Central,Independent dealer,Spring sell-in,2.7,15440
+PR076,2026-02-02,D027,Central,Independent dealer,Co-op advertising,1.9,20800
+PR077,2026-02-18,D027,Central,Independent dealer,Rebate,2.3,11787
+PR078,2025-10-03,D028,West,Distributor,Bundle,3.4,19149
+PR079,2026-01-01,D028,West,Distributor,Spring sell-in,2.5,12935
+PR080,2025-10-18,D029,North,Commercial fleet,Co-op advertising,2.2,3750
+PR081,2025-10-27,D029,North,Commercial fleet,Bundle,2.3,21183
+PR082,2025-11-11,D030,South,Home center,Co-op advertising,2.1,10695
+PR083,2026-03-31,D030,South,Home center,Bundle,2.8,19657
+PR084,2026-02-28,D030,South,Home center,Co-op advertising,1.9,8940
+PR085,2025-12-12,D031,Central,Independent dealer,Rebate,2.4,20267
+PR086,2026-04-14,D031,Central,Independent dealer,Co-op advertising,1.7,16286
+PR087,2026-03-22,D031,Central,Independent dealer,Bundle,2.6,20661
+PR088,2026-04-18,D031,Central,Independent dealer,Co-op advertising,2.5,7668
+PR089,2025-11-08,D032,West,Distributor,Rebate,2.4,5770
+PR090,2026-01-12,D032,West,Distributor,Co-op advertising,2.4,20960
+PR091,2026-01-01,D033,North,Commercial fleet,Rebate,2.5,21393
+PR092,2026-01-12,D033,North,Commercial fleet,Co-op advertising,2.1,20507
+PR093,2026-01-31,D033,North,Commercial fleet,Rebate,2.6,6767
+PR094,2026-02-10,D033,North,Commercial fleet,Spring sell-in,4.1,3289
+PR095,2026-03-07,D034,South,Home center,Co-op advertising,2.4,20758
+PR096,2026-04-19,D034,South,Home center,Co-op advertising,1.6,8195
+PR097,2026-03-20,D035,Central,Independent dealer,Co-op advertising,2.4,5064
+PR098,2026-01-14,D035,Central,Independent dealer,Rebate,2.2,16745
+PR099,2025-10-18,D036,West,Distributor,Bundle,2.3,15384
+PR100,2025-11-07,D036,West,Distributor,Bundle,3.1,11657
+PR101,2026-03-25,D036,West,Distributor,Co-op advertising,1.9,16851
+PR102,2025-12-25,D036,West,Distributor,Co-op advertising,2.4,16285

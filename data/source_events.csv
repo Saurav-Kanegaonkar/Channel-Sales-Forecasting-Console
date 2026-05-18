@@ -1,651 +1,421 @@
-event_id,event_date,entity_id,event_type,severity,estimated_impact
-EV0001,2026-01-01,DEA015,experiment,Low,40797
-EV0002,2026-01-02,DEA022,launch,Low,44956
-EV0003,2026-01-03,DEA014,qa_check,Medium,8087
-EV0004,2026-01-04,DEA031,stakeholder_request,High,12893
-EV0005,2026-01-05,DEA003,experiment,Low,17084
-EV0006,2026-01-06,DEA001,launch,High,33293
-EV0007,2026-01-07,DEA001,exception,High,9899
-EV0008,2026-01-08,DEA001,qa_check,High,28066
-EV0009,2026-01-09,DEA001,stakeholder_request,Low,17506
-EV0010,2026-01-10,DEA025,stakeholder_request,Low,29059
-EV0011,2026-01-11,DEA005,stakeholder_request,High,21805
-EV0012,2026-01-12,DEA017,stakeholder_request,Low,2579
-EV0013,2026-01-13,DEA018,qa_check,Low,31850
-EV0014,2026-01-14,DEA006,qa_check,Low,21570
-EV0015,2026-01-15,DEA025,experiment,Medium,18227
-EV0016,2026-01-16,DEA004,experiment,High,28942
-EV0017,2026-01-17,DEA020,exception,High,17091
-EV0018,2026-01-18,DEA018,exception,High,37562
-EV0019,2026-01-19,DEA015,launch,Low,3357
-EV0020,2026-01-20,DEA018,exception,High,10404
-EV0021,2026-01-21,DEA013,experiment,Low,22551
-EV0022,2026-01-22,DEA017,experiment,High,43844
-EV0023,2026-01-23,DEA022,qa_check,Low,2812
-EV0024,2026-01-24,DEA012,launch,High,8620
-EV0025,2026-01-25,DEA027,launch,Low,3554
-EV0026,2026-01-26,DEA030,launch,Low,27950
-EV0027,2026-01-27,DEA014,stakeholder_request,High,10786
-EV0028,2026-01-28,DEA013,qa_check,Low,12798
-EV0029,2026-01-29,DEA006,qa_check,Medium,35583
-EV0030,2026-01-30,DEA002,qa_check,Low,34304
-EV0031,2026-01-31,DEA029,exception,Medium,26215
-EV0032,2026-02-01,DEA015,qa_check,Low,20363
-EV0033,2026-02-02,DEA022,exception,High,38935
-EV0034,2026-02-03,DEA015,exception,High,22368
-EV0035,2026-02-04,DEA030,experiment,Low,44423
-EV0036,2026-02-05,DEA021,experiment,Low,28605
-EV0037,2026-02-06,DEA028,experiment,High,37380
-EV0038,2026-02-07,DEA012,experiment,Low,36304
-EV0039,2026-02-08,DEA019,exception,Medium,4287
-EV0040,2026-02-09,DEA008,stakeholder_request,Low,26346
-EV0041,2026-02-10,DEA017,launch,Medium,16314
-EV0042,2026-02-11,DEA012,stakeholder_request,High,18627
-EV0043,2026-02-12,DEA025,exception,Low,2388
-EV0044,2026-02-13,DEA031,launch,High,30084
-EV0045,2026-02-14,DEA026,qa_check,Low,3417
-EV0046,2026-02-15,DEA025,qa_check,Low,24363
-EV0047,2026-02-16,DEA023,stakeholder_request,Medium,17669
-EV0048,2026-02-17,DEA024,launch,Low,31159
-EV0049,2026-02-18,DEA005,stakeholder_request,High,15809
-EV0050,2026-02-19,DEA015,exception,Medium,34703
-EV0051,2026-02-20,DEA020,exception,Medium,36591
-EV0052,2026-02-21,DEA006,launch,High,31906
-EV0053,2026-02-22,DEA021,experiment,High,7207
-EV0054,2026-02-23,DEA006,stakeholder_request,High,37662
-EV0055,2026-02-24,DEA006,qa_check,High,44790
-EV0056,2026-02-25,DEA003,qa_check,High,37308
-EV0057,2026-02-26,DEA024,exception,Low,37578
-EV0058,2026-02-27,DEA009,exception,Medium,19734
-EV0059,2026-02-28,DEA003,exception,Medium,18731
-EV0060,2026-03-01,DEA006,experiment,High,2158
-EV0061,2026-03-02,DEA019,experiment,High,42301
-EV0062,2026-03-03,DEA005,stakeholder_request,High,2048
-EV0063,2026-03-04,DEA024,experiment,Low,6367
-EV0064,2026-03-05,DEA017,exception,Medium,710
-EV0065,2026-03-06,DEA027,qa_check,Low,1817
-EV0066,2026-03-07,DEA028,experiment,Medium,32023
-EV0067,2026-03-08,DEA021,stakeholder_request,Low,29794
-EV0068,2026-03-09,DEA005,exception,High,40339
-EV0069,2026-03-10,DEA002,experiment,Medium,22290
-EV0070,2026-03-11,DEA027,launch,Low,41529
-EV0071,2026-03-12,DEA003,launch,Low,32407
-EV0072,2026-03-13,DEA017,stakeholder_request,Low,8697
-EV0073,2026-03-14,DEA013,experiment,High,15762
-EV0074,2026-03-15,DEA002,launch,Medium,16538
-EV0075,2026-03-16,DEA020,launch,Low,4057
-EV0076,2026-03-17,DEA009,stakeholder_request,Low,21365
-EV0077,2026-03-18,DEA001,launch,High,3306
-EV0078,2026-03-19,DEA003,launch,Medium,33282
-EV0079,2026-03-20,DEA024,stakeholder_request,Low,17207
-EV0080,2026-03-21,DEA019,stakeholder_request,Medium,13016
-EV0081,2026-03-22,DEA025,qa_check,Medium,17687
-EV0082,2026-03-23,DEA008,launch,Medium,27409
-EV0083,2026-03-24,DEA010,exception,Low,40588
-EV0084,2026-03-25,DEA030,launch,Low,40564
-EV0085,2026-03-26,DEA023,qa_check,Medium,6017
-EV0086,2026-03-27,DEA013,qa_check,High,8143
-EV0087,2026-03-28,DEA006,stakeholder_request,Low,19853
-EV0088,2026-03-29,DEA015,qa_check,Low,7827
-EV0089,2026-03-30,DEA022,qa_check,High,43907
-EV0090,2026-03-31,DEA015,experiment,Medium,5432
-EV0091,2026-04-01,DEA026,launch,Medium,2739
-EV0092,2026-04-02,DEA021,exception,Medium,13178
-EV0093,2026-04-03,DEA027,experiment,High,15631
-EV0094,2026-04-04,DEA029,exception,Medium,17114
-EV0095,2026-04-05,DEA023,exception,High,41718
-EV0096,2026-04-06,DEA030,experiment,Medium,29705
-EV0097,2026-04-07,DEA009,experiment,Low,6274
-EV0098,2026-04-08,DEA012,exception,High,566
-EV0099,2026-04-09,DEA005,launch,Low,7655
-EV0100,2026-04-10,DEA004,stakeholder_request,Medium,30364
-EV0101,2026-04-11,DEA015,exception,Medium,26395
-EV0102,2026-04-12,DEA010,stakeholder_request,High,42363
-EV0103,2026-04-13,DEA019,experiment,High,26465
-EV0104,2026-04-14,DEA001,exception,Medium,24138
-EV0105,2026-04-15,DEA001,qa_check,High,3680
-EV0106,2026-04-16,DEA011,qa_check,Medium,38435
-EV0107,2026-04-17,DEA010,qa_check,Medium,25769
-EV0108,2026-04-18,DEA003,experiment,Medium,3192
-EV0109,2026-04-19,DEA001,stakeholder_request,Low,41598
-EV0110,2026-04-20,DEA001,exception,Medium,41720
-EV0111,2026-04-21,DEA030,experiment,High,38048
-EV0112,2026-04-22,DEA027,stakeholder_request,Low,23530
-EV0113,2026-04-23,DEA027,qa_check,High,10557
-EV0114,2026-04-24,DEA011,launch,High,31325
-EV0115,2026-04-25,DEA002,launch,High,14303
-EV0116,2026-04-26,DEA017,stakeholder_request,High,18648
-EV0117,2026-04-27,DEA013,qa_check,Low,29062
-EV0118,2026-04-28,DEA004,qa_check,High,37679
-EV0119,2026-04-29,DEA024,exception,Low,38208
-EV0120,2026-04-30,DEA021,qa_check,Low,13696
-EV0121,2026-01-01,DEA001,qa_check,Medium,10373
-EV0122,2026-01-02,DEA030,qa_check,High,689
-EV0123,2026-01-03,DEA003,stakeholder_request,Medium,6268
-EV0124,2026-01-04,DEA016,exception,Medium,28130
-EV0125,2026-01-05,DEA026,launch,High,10155
-EV0126,2026-01-06,DEA009,launch,Medium,28398
-EV0127,2026-01-07,DEA029,exception,Low,19975
-EV0128,2026-01-08,DEA027,qa_check,Medium,22868
-EV0129,2026-01-09,DEA009,experiment,Medium,40139
-EV0130,2026-01-10,DEA013,experiment,Medium,32642
-EV0131,2026-01-11,DEA002,experiment,Medium,21464
-EV0132,2026-01-12,DEA008,launch,High,25450
-EV0133,2026-01-13,DEA029,experiment,Medium,15278
-EV0134,2026-01-14,DEA025,qa_check,High,32201
-EV0135,2026-01-15,DEA007,qa_check,Medium,7669
-EV0136,2026-01-16,DEA030,launch,Low,32690
-EV0137,2026-01-17,DEA021,qa_check,Medium,12402
-EV0138,2026-01-18,DEA020,stakeholder_request,Medium,10963
-EV0139,2026-01-19,DEA012,exception,Low,21980
-EV0140,2026-01-20,DEA004,experiment,Medium,2335
-EV0141,2026-01-21,DEA022,launch,Medium,39374
-EV0142,2026-01-22,DEA019,exception,Low,43073
-EV0143,2026-01-23,DEA012,exception,High,12399
-EV0144,2026-01-24,DEA022,stakeholder_request,Low,22721
-EV0145,2026-01-25,DEA021,experiment,High,26749
-EV0146,2026-01-26,DEA005,launch,Low,17596
-EV0147,2026-01-27,DEA015,stakeholder_request,Medium,1195
-EV0148,2026-01-28,DEA021,exception,High,37428
-EV0149,2026-01-29,DEA017,qa_check,Low,41926
-EV0150,2026-01-30,DEA010,experiment,Low,30666
-EV0151,2026-01-31,DEA030,stakeholder_request,Medium,32062
-EV0152,2026-02-01,DEA027,exception,Medium,14935
-EV0153,2026-02-02,DEA003,launch,Medium,13808
-EV0154,2026-02-03,DEA004,stakeholder_request,High,21149
-EV0155,2026-02-04,DEA018,experiment,High,28275
-EV0156,2026-02-05,DEA014,experiment,Medium,29281
-EV0157,2026-02-06,DEA010,stakeholder_request,Low,35955
-EV0158,2026-02-07,DEA007,launch,High,29294
-EV0159,2026-02-08,DEA011,qa_check,High,6846
-EV0160,2026-02-09,DEA014,qa_check,Low,29218
-EV0161,2026-02-10,DEA007,exception,High,2243
-EV0162,2026-02-11,DEA012,qa_check,Medium,10393
-EV0163,2026-02-12,DEA028,launch,Low,25678
-EV0164,2026-02-13,DEA009,exception,Medium,7865
-EV0165,2026-02-14,DEA006,experiment,Medium,43519
-EV0166,2026-02-15,DEA005,experiment,Medium,4436
-EV0167,2026-02-16,DEA032,launch,Low,41725
-EV0168,2026-02-17,DEA016,experiment,Medium,38871
-EV0169,2026-02-18,DEA022,stakeholder_request,Medium,29758
-EV0170,2026-02-19,DEA012,stakeholder_request,Medium,38765
-EV0171,2026-02-20,DEA013,qa_check,High,36148
-EV0172,2026-02-21,DEA004,stakeholder_request,Medium,1063
-EV0173,2026-02-22,DEA024,stakeholder_request,High,6718
-EV0174,2026-02-23,DEA021,experiment,Low,30735
-EV0175,2026-02-24,DEA003,exception,High,5966
-EV0176,2026-02-25,DEA010,qa_check,High,15110
-EV0177,2026-02-26,DEA017,exception,Medium,9598
-EV0178,2026-02-27,DEA005,stakeholder_request,Medium,1865
-EV0179,2026-02-28,DEA003,launch,Medium,44720
-EV0180,2026-03-01,DEA032,exception,Medium,34672
-EV0181,2026-03-02,DEA030,exception,Medium,10191
-EV0182,2026-03-03,DEA029,exception,Medium,24998
-EV0183,2026-03-04,DEA026,launch,Medium,22622
-EV0184,2026-03-05,DEA009,experiment,Medium,16063
-EV0185,2026-03-06,DEA005,exception,Medium,42044
-EV0186,2026-03-07,DEA016,launch,Medium,37956
-EV0187,2026-03-08,DEA025,experiment,Medium,23218
-EV0188,2026-03-09,DEA004,qa_check,Medium,43403
-EV0189,2026-03-10,DEA005,stakeholder_request,High,14113
-EV0190,2026-03-11,DEA022,stakeholder_request,Medium,13196
-EV0191,2026-03-12,DEA004,exception,Low,23537
-EV0192,2026-03-13,DEA029,launch,High,8775
-EV0193,2026-03-14,DEA012,launch,High,13918
-EV0194,2026-03-15,DEA025,qa_check,Low,38466
-EV0195,2026-03-16,DEA006,stakeholder_request,Low,19254
-EV0196,2026-03-17,DEA028,launch,High,4381
-EV0197,2026-03-18,DEA005,experiment,Medium,32202
-EV0198,2026-03-19,DEA014,launch,Low,41464
-EV0199,2026-03-20,DEA032,experiment,High,16341
-EV0200,2026-03-21,DEA027,qa_check,Low,2701
-EV0201,2026-03-22,DEA012,stakeholder_request,Medium,43582
-EV0202,2026-03-23,DEA032,stakeholder_request,Medium,3988
-EV0203,2026-03-24,DEA030,launch,Low,22729
-EV0204,2026-03-25,DEA023,qa_check,Medium,26146
-EV0205,2026-03-26,DEA002,qa_check,Low,42712
-EV0206,2026-03-27,DEA007,launch,Low,42601
-EV0207,2026-03-28,DEA007,experiment,High,39958
-EV0208,2026-03-29,DEA030,qa_check,Low,5215
-EV0209,2026-03-30,DEA025,experiment,Medium,35934
-EV0210,2026-03-31,DEA026,launch,Medium,44278
-EV0211,2026-04-01,DEA016,qa_check,High,10336
-EV0212,2026-04-02,DEA008,experiment,Low,37151
-EV0213,2026-04-03,DEA013,experiment,Low,32937
-EV0214,2026-04-04,DEA027,launch,Low,14070
-EV0215,2026-04-05,DEA015,experiment,Low,31096
-EV0216,2026-04-06,DEA004,launch,High,21600
-EV0217,2026-04-07,DEA018,exception,High,38413
-EV0218,2026-04-08,DEA016,exception,Low,22255
-EV0219,2026-04-09,DEA009,qa_check,Medium,34552
-EV0220,2026-04-10,DEA010,exception,High,8264
-EV0221,2026-04-11,DEA005,exception,High,43712
-EV0222,2026-04-12,DEA019,qa_check,High,17999
-EV0223,2026-04-13,DEA011,exception,Low,2255
-EV0224,2026-04-14,DEA015,stakeholder_request,Low,10558
-EV0225,2026-04-15,DEA002,exception,Low,18498
-EV0226,2026-04-16,DEA001,qa_check,Low,43505
-EV0227,2026-04-17,DEA019,stakeholder_request,High,1148
-EV0228,2026-04-18,DEA024,stakeholder_request,Low,41766
-EV0229,2026-04-19,DEA019,stakeholder_request,High,35907
-EV0230,2026-04-20,DEA016,stakeholder_request,Medium,3178
-EV0231,2026-04-21,DEA010,qa_check,Medium,41724
-EV0232,2026-04-22,DEA007,qa_check,Low,17700
-EV0233,2026-04-23,DEA003,launch,Medium,41704
-EV0234,2026-04-24,DEA031,exception,Medium,11275
-EV0235,2026-04-25,DEA018,stakeholder_request,High,25181
-EV0236,2026-04-26,DEA020,exception,Low,15353
-EV0237,2026-04-27,DEA014,qa_check,High,23936
-EV0238,2026-04-28,DEA007,exception,Low,27564
-EV0239,2026-04-29,DEA024,stakeholder_request,Medium,2080
-EV0240,2026-04-30,DEA024,exception,High,42056
-EV0241,2026-01-01,DEA024,qa_check,Low,4589
-EV0242,2026-01-02,DEA017,launch,High,26979
-EV0243,2026-01-03,DEA009,exception,Low,30498
-EV0244,2026-01-04,DEA005,qa_check,Medium,27134
-EV0245,2026-01-05,DEA025,experiment,Low,31248
-EV0246,2026-01-06,DEA002,exception,High,35776
-EV0247,2026-01-07,DEA030,launch,High,34189
-EV0248,2026-01-08,DEA018,experiment,Medium,36066
-EV0249,2026-01-09,DEA020,qa_check,High,35247
-EV0250,2026-01-10,DEA018,stakeholder_request,Medium,34191
-EV0251,2026-01-11,DEA022,exception,High,16736
-EV0252,2026-01-12,DEA020,stakeholder_request,Low,39634
-EV0253,2026-01-13,DEA005,qa_check,Medium,1332
-EV0254,2026-01-14,DEA029,launch,Medium,37097
-EV0255,2026-01-15,DEA032,qa_check,High,8708
-EV0256,2026-01-16,DEA010,exception,High,39086
-EV0257,2026-01-17,DEA020,experiment,Medium,3813
-EV0258,2026-01-18,DEA019,stakeholder_request,Low,41154
-EV0259,2026-01-19,DEA020,launch,High,14819
-EV0260,2026-01-20,DEA018,qa_check,Medium,13290
-EV0261,2026-01-21,DEA012,stakeholder_request,Medium,20219
-EV0262,2026-01-22,DEA011,experiment,Low,16474
-EV0263,2026-01-23,DEA032,exception,High,5580
-EV0264,2026-01-24,DEA026,qa_check,Low,43887
-EV0265,2026-01-25,DEA003,experiment,High,11958
-EV0266,2026-01-26,DEA023,experiment,High,31771
-EV0267,2026-01-27,DEA027,exception,High,42461
-EV0268,2026-01-28,DEA018,experiment,High,39953
-EV0269,2026-01-29,DEA023,qa_check,High,4974
-EV0270,2026-01-30,DEA019,launch,Medium,23520
-EV0271,2026-01-31,DEA027,experiment,Low,2540
-EV0272,2026-02-01,DEA030,exception,High,41152
-EV0273,2026-02-02,DEA024,launch,Medium,36897
-EV0274,2026-02-03,DEA025,experiment,Low,10112
-EV0275,2026-02-04,DEA031,exception,High,15166
-EV0276,2026-02-05,DEA011,experiment,High,31391
-EV0277,2026-02-06,DEA029,launch,High,15205
-EV0278,2026-02-07,DEA016,launch,Low,39010
-EV0279,2026-02-08,DEA011,qa_check,High,8610
-EV0280,2026-02-09,DEA026,qa_check,High,19479
-EV0281,2026-02-10,DEA022,launch,Medium,20379
-EV0282,2026-02-11,DEA004,exception,Low,44909
-EV0283,2026-02-12,DEA017,experiment,Low,13226
-EV0284,2026-02-13,DEA026,launch,High,30782
-EV0285,2026-02-14,DEA030,qa_check,Medium,30558
-EV0286,2026-02-15,DEA018,exception,High,19384
-EV0287,2026-02-16,DEA008,stakeholder_request,Low,19602
-EV0288,2026-02-17,DEA021,exception,High,9880
-EV0289,2026-02-18,DEA013,experiment,Low,2195
-EV0290,2026-02-19,DEA028,stakeholder_request,High,2558
-EV0291,2026-02-20,DEA028,launch,Low,14722
-EV0292,2026-02-21,DEA002,stakeholder_request,Low,34722
-EV0293,2026-02-22,DEA008,qa_check,Medium,39717
-EV0294,2026-02-23,DEA029,stakeholder_request,High,30246
-EV0295,2026-02-24,DEA004,exception,High,18117
-EV0296,2026-02-25,DEA025,exception,Low,41282
-EV0297,2026-02-26,DEA025,qa_check,High,31175
-EV0298,2026-02-27,DEA023,experiment,Low,36621
-EV0299,2026-02-28,DEA012,exception,Low,29025
-EV0300,2026-03-01,DEA006,qa_check,Medium,37717
-EV0301,2026-03-02,DEA023,experiment,Low,40407
-EV0302,2026-03-03,DEA009,launch,Medium,23864
-EV0303,2026-03-04,DEA016,experiment,High,18045
-EV0304,2026-03-05,DEA023,experiment,Low,7024
-EV0305,2026-03-06,DEA003,launch,High,31687
-EV0306,2026-03-07,DEA032,qa_check,High,9322
-EV0307,2026-03-08,DEA006,exception,Low,7795
-EV0308,2026-03-09,DEA017,qa_check,Low,32191
-EV0309,2026-03-10,DEA018,exception,Medium,39390
-EV0310,2026-03-11,DEA005,stakeholder_request,High,17168
-EV0311,2026-03-12,DEA023,qa_check,Low,20065
-EV0312,2026-03-13,DEA002,launch,High,20860
-EV0313,2026-03-14,DEA001,stakeholder_request,Low,26139
-EV0314,2026-03-15,DEA021,experiment,Medium,25551
-EV0315,2026-03-16,DEA012,launch,Medium,22979
-EV0316,2026-03-17,DEA018,experiment,Medium,8479
-EV0317,2026-03-18,DEA011,experiment,High,7969
-EV0318,2026-03-19,DEA017,launch,Low,2757
-EV0319,2026-03-20,DEA003,exception,Low,11645
-EV0320,2026-03-21,DEA021,exception,Low,16459
-EV0321,2026-03-22,DEA021,launch,Medium,1477
-EV0322,2026-03-23,DEA012,launch,Low,32361
-EV0323,2026-03-24,DEA030,experiment,Medium,44315
-EV0324,2026-03-25,DEA028,qa_check,Low,43832
-EV0325,2026-03-26,DEA004,exception,Medium,15485
-EV0326,2026-03-27,DEA004,stakeholder_request,Medium,37889
-EV0327,2026-03-28,DEA024,experiment,Medium,11542
-EV0328,2026-03-29,DEA011,experiment,High,14404
-EV0329,2026-03-30,DEA013,launch,High,42687
-EV0330,2026-03-31,DEA013,stakeholder_request,Low,41468
-EV0331,2026-04-01,DEA023,experiment,Medium,28331
-EV0332,2026-04-02,DEA007,launch,High,35414
-EV0333,2026-04-03,DEA008,qa_check,Medium,6817
-EV0334,2026-04-04,DEA008,launch,High,21988
-EV0335,2026-04-05,DEA026,launch,Medium,25302
-EV0336,2026-04-06,DEA008,exception,Low,33190
-EV0337,2026-04-07,DEA004,stakeholder_request,Low,21294
-EV0338,2026-04-08,DEA020,launch,Medium,40254
-EV0339,2026-04-09,DEA015,qa_check,High,7342
-EV0340,2026-04-10,DEA014,stakeholder_request,Medium,11803
-EV0341,2026-04-11,DEA018,experiment,Low,24886
-EV0342,2026-04-12,DEA029,exception,High,8144
-EV0343,2026-04-13,DEA005,experiment,High,761
-EV0344,2026-04-14,DEA017,experiment,Low,44728
-EV0345,2026-04-15,DEA001,exception,Medium,40361
-EV0346,2026-04-16,DEA019,exception,Low,36265
-EV0347,2026-04-17,DEA026,experiment,Low,44952
-EV0348,2026-04-18,DEA018,qa_check,Medium,43993
-EV0349,2026-04-19,DEA007,launch,High,32649
-EV0350,2026-04-20,DEA023,exception,Low,25108
-EV0351,2026-04-21,DEA020,qa_check,Low,6043
-EV0352,2026-04-22,DEA017,stakeholder_request,High,18842
-EV0353,2026-04-23,DEA024,exception,Low,33991
-EV0354,2026-04-24,DEA016,launch,Medium,12708
-EV0355,2026-04-25,DEA011,stakeholder_request,High,13556
-EV0356,2026-04-26,DEA025,qa_check,High,22889
-EV0357,2026-04-27,DEA024,experiment,High,2104
-EV0358,2026-04-28,DEA029,exception,Medium,32796
-EV0359,2026-04-29,DEA032,launch,Low,7061
-EV0360,2026-04-30,DEA023,exception,Low,12272
-EV0361,2026-01-01,DEA010,stakeholder_request,High,34327
-EV0362,2026-01-02,DEA006,exception,Medium,17458
-EV0363,2026-01-03,DEA013,exception,Low,39336
-EV0364,2026-01-04,DEA011,launch,Medium,15313
-EV0365,2026-01-05,DEA005,experiment,Medium,3287
-EV0366,2026-01-06,DEA013,stakeholder_request,High,11290
-EV0367,2026-01-07,DEA027,exception,Low,1018
-EV0368,2026-01-08,DEA024,exception,Low,35170
-EV0369,2026-01-09,DEA004,stakeholder_request,High,38049
-EV0370,2026-01-10,DEA003,qa_check,Low,29552
-EV0371,2026-01-11,DEA012,stakeholder_request,High,12765
-EV0372,2026-01-12,DEA023,exception,Medium,41498
-EV0373,2026-01-13,DEA025,launch,Medium,26274
-EV0374,2026-01-14,DEA024,launch,High,5332
-EV0375,2026-01-15,DEA022,experiment,High,16406
-EV0376,2026-01-16,DEA011,experiment,High,6602
-EV0377,2026-01-17,DEA030,launch,High,6376
-EV0378,2026-01-18,DEA012,qa_check,Low,3692
-EV0379,2026-01-19,DEA014,exception,Low,33603
-EV0380,2026-01-20,DEA016,launch,Medium,30594
-EV0381,2026-01-21,DEA011,qa_check,Low,25679
-EV0382,2026-01-22,DEA003,experiment,Low,35333
-EV0383,2026-01-23,DEA030,stakeholder_request,Low,24004
-EV0384,2026-01-24,DEA014,qa_check,High,21550
-EV0385,2026-01-25,DEA032,qa_check,Medium,43069
-EV0386,2026-01-26,DEA023,qa_check,Medium,3743
-EV0387,2026-01-27,DEA021,exception,Low,10400
-EV0388,2026-01-28,DEA013,exception,Low,43164
-EV0389,2026-01-29,DEA031,stakeholder_request,Low,9656
-EV0390,2026-01-30,DEA009,exception,Low,8363
-EV0391,2026-01-31,DEA028,exception,Medium,25883
-EV0392,2026-02-01,DEA002,qa_check,Low,39407
-EV0393,2026-02-02,DEA027,qa_check,Medium,38426
-EV0394,2026-02-03,DEA018,exception,Medium,24735
-EV0395,2026-02-04,DEA002,exception,Medium,16497
-EV0396,2026-02-05,DEA008,launch,High,4183
-EV0397,2026-02-06,DEA007,stakeholder_request,Medium,39898
-EV0398,2026-02-07,DEA024,qa_check,Medium,29661
-EV0399,2026-02-08,DEA022,exception,Low,10901
-EV0400,2026-02-09,DEA013,qa_check,High,17484
-EV0401,2026-02-10,DEA014,qa_check,Low,25283
-EV0402,2026-02-11,DEA029,stakeholder_request,Medium,37361
-EV0403,2026-02-12,DEA016,launch,Medium,23020
-EV0404,2026-02-13,DEA004,qa_check,Medium,14545
-EV0405,2026-02-14,DEA031,experiment,Medium,9136
-EV0406,2026-02-15,DEA019,exception,Medium,2127
-EV0407,2026-02-16,DEA013,launch,High,43706
-EV0408,2026-02-17,DEA025,experiment,Medium,44502
-EV0409,2026-02-18,DEA004,stakeholder_request,Medium,1017
-EV0410,2026-02-19,DEA014,stakeholder_request,High,32480
-EV0411,2026-02-20,DEA025,launch,Medium,32388
-EV0412,2026-02-21,DEA003,launch,High,39552
-EV0413,2026-02-22,DEA017,experiment,High,41641
-EV0414,2026-02-23,DEA019,exception,Medium,26825
-EV0415,2026-02-24,DEA002,stakeholder_request,Medium,42234
-EV0416,2026-02-25,DEA020,experiment,Medium,29100
-EV0417,2026-02-26,DEA023,experiment,High,16543
-EV0418,2026-02-27,DEA015,qa_check,Medium,21112
-EV0419,2026-02-28,DEA016,launch,Medium,33806
-EV0420,2026-03-01,DEA015,launch,Medium,42425
-EV0421,2026-03-02,DEA020,exception,Medium,3724
-EV0422,2026-03-03,DEA004,launch,Medium,2485
-EV0423,2026-03-04,DEA015,qa_check,Low,44713
-EV0424,2026-03-05,DEA019,stakeholder_request,Medium,11328
-EV0425,2026-03-06,DEA009,exception,Low,42816
-EV0426,2026-03-07,DEA030,qa_check,Low,34444
-EV0427,2026-03-08,DEA008,exception,Medium,3270
-EV0428,2026-03-09,DEA022,qa_check,Low,28796
-EV0429,2026-03-10,DEA009,experiment,Low,37732
-EV0430,2026-03-11,DEA005,qa_check,Medium,25998
-EV0431,2026-03-12,DEA012,qa_check,Low,31656
-EV0432,2026-03-13,DEA013,experiment,High,29151
-EV0433,2026-03-14,DEA012,exception,High,15329
-EV0434,2026-03-15,DEA015,experiment,Low,34825
-EV0435,2026-03-16,DEA014,launch,High,37065
-EV0436,2026-03-17,DEA009,experiment,Medium,2212
-EV0437,2026-03-18,DEA032,qa_check,Medium,28055
-EV0438,2026-03-19,DEA014,exception,Medium,36423
-EV0439,2026-03-20,DEA013,exception,High,14868
-EV0440,2026-03-21,DEA031,qa_check,Medium,29448
-EV0441,2026-03-22,DEA029,qa_check,Medium,12114
-EV0442,2026-03-23,DEA008,qa_check,Low,4771
-EV0443,2026-03-24,DEA013,stakeholder_request,Low,40264
-EV0444,2026-03-25,DEA032,qa_check,Medium,8636
-EV0445,2026-03-26,DEA021,launch,Medium,1618
-EV0446,2026-03-27,DEA006,stakeholder_request,Medium,37480
-EV0447,2026-03-28,DEA003,qa_check,Medium,37441
-EV0448,2026-03-29,DEA009,stakeholder_request,Medium,1514
-EV0449,2026-03-30,DEA007,exception,Low,31244
-EV0450,2026-03-31,DEA006,launch,Medium,35957
-EV0451,2026-04-01,DEA012,stakeholder_request,Low,38230
-EV0452,2026-04-02,DEA021,exception,Low,2941
-EV0453,2026-04-03,DEA016,experiment,Low,38889
-EV0454,2026-04-04,DEA013,qa_check,Low,8555
-EV0455,2026-04-05,DEA028,experiment,Low,40259
-EV0456,2026-04-06,DEA017,exception,Low,21554
-EV0457,2026-04-07,DEA031,qa_check,Medium,35329
-EV0458,2026-04-08,DEA025,experiment,Medium,17728
-EV0459,2026-04-09,DEA016,experiment,Low,43114
-EV0460,2026-04-10,DEA009,experiment,Medium,26919
-EV0461,2026-04-11,DEA005,stakeholder_request,Medium,6872
-EV0462,2026-04-12,DEA021,qa_check,High,38195
-EV0463,2026-04-13,DEA001,exception,Medium,39991
-EV0464,2026-04-14,DEA032,stakeholder_request,Medium,30191
-EV0465,2026-04-15,DEA009,experiment,Low,40518
-EV0466,2026-04-16,DEA006,stakeholder_request,Low,37589
-EV0467,2026-04-17,DEA022,qa_check,Medium,9357
-EV0468,2026-04-18,DEA030,qa_check,Medium,31271
-EV0469,2026-04-19,DEA022,stakeholder_request,Medium,4112
-EV0470,2026-04-20,DEA005,qa_check,Low,12615
-EV0471,2026-04-21,DEA024,exception,Medium,40099
-EV0472,2026-04-22,DEA005,experiment,High,10459
-EV0473,2026-04-23,DEA019,stakeholder_request,Low,27501
-EV0474,2026-04-24,DEA007,experiment,Medium,25210
-EV0475,2026-04-25,DEA029,experiment,Low,11689
-EV0476,2026-04-26,DEA030,experiment,Low,9115
-EV0477,2026-04-27,DEA016,launch,High,4692
-EV0478,2026-04-28,DEA025,launch,Low,16193
-EV0479,2026-04-29,DEA004,experiment,High,30832
-EV0480,2026-04-30,DEA018,exception,High,32310
-EV0481,2026-01-01,DEA026,qa_check,Medium,30505
-EV0482,2026-01-02,DEA010,stakeholder_request,High,19425
-EV0483,2026-01-03,DEA030,exception,High,22628
-EV0484,2026-01-04,DEA022,launch,High,40484
-EV0485,2026-01-05,DEA014,qa_check,Low,36234
-EV0486,2026-01-06,DEA002,launch,Low,19968
-EV0487,2026-01-07,DEA004,stakeholder_request,Medium,33728
-EV0488,2026-01-08,DEA032,launch,Medium,30105
-EV0489,2026-01-09,DEA007,exception,Low,3798
-EV0490,2026-01-10,DEA017,exception,Medium,34733
-EV0491,2026-01-11,DEA013,qa_check,High,1484
-EV0492,2026-01-12,DEA024,qa_check,High,25322
-EV0493,2026-01-13,DEA022,exception,High,1900
-EV0494,2026-01-14,DEA003,exception,Low,15146
-EV0495,2026-01-15,DEA021,stakeholder_request,Low,12614
-EV0496,2026-01-16,DEA010,stakeholder_request,Low,25123
-EV0497,2026-01-17,DEA014,stakeholder_request,High,44184
-EV0498,2026-01-18,DEA019,experiment,High,16797
-EV0499,2026-01-19,DEA028,exception,Low,27852
-EV0500,2026-01-20,DEA025,exception,Medium,39489
-EV0501,2026-01-21,DEA027,launch,Medium,36390
-EV0502,2026-01-22,DEA023,qa_check,Low,13098
-EV0503,2026-01-23,DEA015,launch,Low,7107
-EV0504,2026-01-24,DEA016,experiment,High,36555
-EV0505,2026-01-25,DEA016,stakeholder_request,Low,35010
-EV0506,2026-01-26,DEA027,launch,Medium,20442
-EV0507,2026-01-27,DEA028,launch,High,34619
-EV0508,2026-01-28,DEA020,stakeholder_request,Low,23260
-EV0509,2026-01-29,DEA029,qa_check,Low,16444
-EV0510,2026-01-30,DEA011,experiment,High,856
-EV0511,2026-01-31,DEA006,stakeholder_request,Medium,43613
-EV0512,2026-02-01,DEA023,experiment,High,37008
-EV0513,2026-02-02,DEA028,launch,Low,2158
-EV0514,2026-02-03,DEA010,qa_check,Low,31660
-EV0515,2026-02-04,DEA021,qa_check,Medium,30459
-EV0516,2026-02-05,DEA008,launch,High,3821
-EV0517,2026-02-06,DEA008,experiment,Medium,5840
-EV0518,2026-02-07,DEA001,experiment,Medium,30118
-EV0519,2026-02-08,DEA011,qa_check,Low,1826
-EV0520,2026-02-09,DEA008,experiment,Medium,41500
-EV0521,2026-02-10,DEA011,experiment,High,25054
-EV0522,2026-02-11,DEA020,experiment,High,12104
-EV0523,2026-02-12,DEA017,qa_check,Medium,10838
-EV0524,2026-02-13,DEA025,qa_check,High,6275
-EV0525,2026-02-14,DEA021,qa_check,High,32897
-EV0526,2026-02-15,DEA016,launch,Low,39246
-EV0527,2026-02-16,DEA013,launch,Low,15231
-EV0528,2026-02-17,DEA018,launch,Medium,18467
-EV0529,2026-02-18,DEA006,exception,High,14158
-EV0530,2026-02-19,DEA002,launch,Medium,32594
-EV0531,2026-02-20,DEA018,qa_check,Low,2508
-EV0532,2026-02-21,DEA015,experiment,Medium,9138
-EV0533,2026-02-22,DEA008,stakeholder_request,Medium,1470
-EV0534,2026-02-23,DEA004,qa_check,High,31266
-EV0535,2026-02-24,DEA021,qa_check,Low,26098
-EV0536,2026-02-25,DEA006,exception,Medium,23255
-EV0537,2026-02-26,DEA031,launch,High,22471
-EV0538,2026-02-27,DEA017,experiment,Low,6112
-EV0539,2026-02-28,DEA026,launch,Low,19011
-EV0540,2026-03-01,DEA023,stakeholder_request,Low,33339
-EV0541,2026-03-02,DEA021,experiment,Medium,2456
-EV0542,2026-03-03,DEA027,experiment,High,29366
-EV0543,2026-03-04,DEA011,experiment,Medium,7992
-EV0544,2026-03-05,DEA028,qa_check,High,20127
-EV0545,2026-03-06,DEA021,qa_check,Low,23036
-EV0546,2026-03-07,DEA020,launch,Low,43805
-EV0547,2026-03-08,DEA006,stakeholder_request,High,16180
-EV0548,2026-03-09,DEA001,exception,High,8723
-EV0549,2026-03-10,DEA024,launch,Low,2290
-EV0550,2026-03-11,DEA010,stakeholder_request,Low,32402
-EV0551,2026-03-12,DEA018,qa_check,High,10262
-EV0552,2026-03-13,DEA015,launch,Low,15759
-EV0553,2026-03-14,DEA023,exception,Medium,42429
-EV0554,2026-03-15,DEA017,launch,High,9984
-EV0555,2026-03-16,DEA015,launch,Medium,25633
-EV0556,2026-03-17,DEA003,experiment,Low,41048
-EV0557,2026-03-18,DEA029,experiment,Low,20945
-EV0558,2026-03-19,DEA026,stakeholder_request,Medium,14890
-EV0559,2026-03-20,DEA009,stakeholder_request,Medium,24548
-EV0560,2026-03-21,DEA031,experiment,Low,14742
-EV0561,2026-03-22,DEA027,experiment,Low,27271
-EV0562,2026-03-23,DEA002,stakeholder_request,Medium,11624
-EV0563,2026-03-24,DEA010,launch,Low,21282
-EV0564,2026-03-25,DEA024,exception,Low,11486
-EV0565,2026-03-26,DEA026,stakeholder_request,Medium,42935
-EV0566,2026-03-27,DEA008,stakeholder_request,Low,16013
-EV0567,2026-03-28,DEA013,experiment,High,29280
-EV0568,2026-03-29,DEA015,experiment,High,19578
-EV0569,2026-03-30,DEA009,exception,Medium,22219
-EV0570,2026-03-31,DEA024,qa_check,Medium,42363
-EV0571,2026-04-01,DEA012,qa_check,High,8323
-EV0572,2026-04-02,DEA030,experiment,Medium,21623
-EV0573,2026-04-03,DEA019,experiment,Medium,17312
-EV0574,2026-04-04,DEA005,stakeholder_request,Medium,6117
-EV0575,2026-04-05,DEA022,qa_check,Medium,34176
-EV0576,2026-04-06,DEA009,qa_check,High,30688
-EV0577,2026-04-07,DEA017,launch,High,36468
-EV0578,2026-04-08,DEA022,experiment,High,27006
-EV0579,2026-04-09,DEA002,stakeholder_request,Low,23246
-EV0580,2026-04-10,DEA023,qa_check,Medium,37460
-EV0581,2026-04-11,DEA025,experiment,High,35666
-EV0582,2026-04-12,DEA025,stakeholder_request,Medium,20211
-EV0583,2026-04-13,DEA027,launch,Low,35742
-EV0584,2026-04-14,DEA027,exception,Low,1902
-EV0585,2026-04-15,DEA018,stakeholder_request,High,43756
-EV0586,2026-04-16,DEA021,stakeholder_request,High,44018
-EV0587,2026-04-17,DEA024,qa_check,High,44826
-EV0588,2026-04-18,DEA012,qa_check,Low,22910
-EV0589,2026-04-19,DEA008,stakeholder_request,High,20628
-EV0590,2026-04-20,DEA029,qa_check,Low,24471
-EV0591,2026-04-21,DEA012,experiment,Medium,17275
-EV0592,2026-04-22,DEA022,exception,Medium,18468
-EV0593,2026-04-23,DEA024,qa_check,Low,26857
-EV0594,2026-04-24,DEA002,experiment,High,14032
-EV0595,2026-04-25,DEA022,stakeholder_request,Low,38630
-EV0596,2026-04-26,DEA009,qa_check,Low,28803
-EV0597,2026-04-27,DEA009,exception,Medium,37367
-EV0598,2026-04-28,DEA002,stakeholder_request,Medium,5234
-EV0599,2026-04-29,DEA024,experiment,Medium,37860
-EV0600,2026-04-30,DEA016,experiment,Medium,30045
-EV0601,2026-01-01,DEA025,stakeholder_request,Low,22083
-EV0602,2026-01-02,DEA030,qa_check,Low,11341
-EV0603,2026-01-03,DEA002,experiment,High,1512
-EV0604,2026-01-04,DEA030,stakeholder_request,Low,14881
-EV0605,2026-01-05,DEA018,launch,Low,26591
-EV0606,2026-01-06,DEA009,qa_check,High,13502
-EV0607,2026-01-07,DEA010,qa_check,Medium,9871
-EV0608,2026-01-08,DEA004,qa_check,High,28709
-EV0609,2026-01-09,DEA025,experiment,Low,30289
-EV0610,2026-01-10,DEA031,launch,High,41407
-EV0611,2026-01-11,DEA027,exception,High,6116
-EV0612,2026-01-12,DEA001,stakeholder_request,Low,27800
-EV0613,2026-01-13,DEA005,experiment,Low,27049
-EV0614,2026-01-14,DEA013,stakeholder_request,High,31442
-EV0615,2026-01-15,DEA009,exception,Medium,10472
-EV0616,2026-01-16,DEA018,stakeholder_request,High,4448
-EV0617,2026-01-17,DEA009,exception,High,16867
-EV0618,2026-01-18,DEA015,launch,Low,40851
-EV0619,2026-01-19,DEA031,launch,Low,22874
-EV0620,2026-01-20,DEA010,qa_check,Medium,23131
-EV0621,2026-01-21,DEA016,stakeholder_request,Medium,42025
-EV0622,2026-01-22,DEA026,experiment,Medium,16885
-EV0623,2026-01-23,DEA024,experiment,Medium,14616
-EV0624,2026-01-24,DEA030,stakeholder_request,High,34164
-EV0625,2026-01-25,DEA006,experiment,High,746
-EV0626,2026-01-26,DEA015,stakeholder_request,High,10962
-EV0627,2026-01-27,DEA009,launch,High,9010
-EV0628,2026-01-28,DEA025,exception,High,43358
-EV0629,2026-01-29,DEA016,launch,Low,39347
-EV0630,2026-01-30,DEA016,launch,Low,36824
-EV0631,2026-01-31,DEA025,exception,High,28543
-EV0632,2026-02-01,DEA015,qa_check,High,14675
-EV0633,2026-02-02,DEA025,experiment,High,9898
-EV0634,2026-02-03,DEA016,experiment,Low,17690
-EV0635,2026-02-04,DEA015,launch,Low,42034
-EV0636,2026-02-05,DEA015,experiment,High,39882
-EV0637,2026-02-06,DEA011,qa_check,Low,40378
-EV0638,2026-02-07,DEA006,qa_check,High,44918
-EV0639,2026-02-08,DEA008,qa_check,Medium,785
-EV0640,2026-02-09,DEA019,experiment,Medium,18710
-EV0641,2026-02-10,DEA024,qa_check,Low,36830
-EV0642,2026-02-11,DEA028,exception,Low,13652
-EV0643,2026-02-12,DEA004,qa_check,Low,8246
-EV0644,2026-02-13,DEA020,experiment,Low,6513
-EV0645,2026-02-14,DEA021,launch,Medium,31021
-EV0646,2026-02-15,DEA005,qa_check,Low,14989
-EV0647,2026-02-16,DEA029,qa_check,Medium,44661
-EV0648,2026-02-17,DEA027,experiment,Low,27916
-EV0649,2026-02-18,DEA006,qa_check,Medium,38593
-EV0650,2026-02-19,DEA014,qa_check,Low,16127
+event_id,event_date,dealer_id,source_system,event_type,severity,estimated_impact,status
+EV0001,2026-01-14,D013,CRM,Inventory refresh lag,Medium,8244,Resolved
+EV0002,2026-02-04,D001,Dealer portal,Promo code gap,Medium,4406,Triaged
+EV0003,2025-09-14,D015,ERP,Inventory refresh lag,Medium,9949,Resolved
+EV0004,2025-12-10,D011,CRM,Forecast override,Low,1170,Resolved
+EV0005,2025-09-06,D009,CRM,Promo code gap,Medium,6359,Open
+EV0006,2026-04-01,D005,Forecast workbook,Inventory refresh lag,High,21004,Open
+EV0007,2026-02-11,D027,Forecast workbook,Inventory refresh lag,Low,2003,Triaged
+EV0008,2025-09-01,D030,ERP,Inventory refresh lag,High,19032,Resolved
+EV0009,2026-03-12,D033,ERP,Dealer master mismatch,Medium,7396,Open
+EV0010,2025-12-19,D003,Forecast workbook,Promo code gap,Medium,5622,Resolved
+EV0011,2026-04-27,D035,ERP,Promo code gap,Low,1295,Triaged
+EV0012,2026-03-11,D002,CRM,Promo code gap,Medium,7792,Open
+EV0013,2025-11-30,D014,Dealer portal,Inventory refresh lag,Low,1818,Triaged
+EV0014,2025-10-13,D036,Dealer portal,Inventory refresh lag,Low,1351,Triaged
+EV0015,2025-10-16,D001,CRM,Late POS file,Medium,8565,Resolved
+EV0016,2025-11-28,D020,ERP,Inventory refresh lag,Low,2037,Triaged
+EV0017,2025-08-02,D026,Forecast workbook,Late POS file,Low,2068,Resolved
+EV0018,2026-02-17,D020,Forecast workbook,Forecast override,High,24681,Open
+EV0019,2026-04-19,D034,Trade promotion tracker,Forecast override,Low,1358,Resolved
+EV0020,2025-10-27,D025,CRM,Inventory refresh lag,Low,1750,Open
+EV0021,2025-07-27,D027,CRM,Inventory refresh lag,Low,1776,Resolved
+EV0022,2025-11-10,D012,Dealer portal,Dealer master mismatch,Medium,7880,Open
+EV0023,2026-04-13,D016,Trade promotion tracker,Inventory refresh lag,Medium,8768,Resolved
+EV0024,2025-12-05,D033,CRM,Dealer master mismatch,Low,1138,Triaged
+EV0025,2026-04-29,D020,CRM,Forecast override,Low,1133,Resolved
+EV0026,2025-12-18,D011,ERP,Forecast override,Medium,8963,Resolved
+EV0027,2026-02-08,D015,ERP,Inventory refresh lag,Low,2142,Resolved
+EV0028,2025-07-21,D036,Forecast workbook,Dealer master mismatch,Low,1771,Triaged
+EV0029,2025-12-28,D003,Forecast workbook,Late POS file,Low,1834,Open
+EV0030,2025-11-10,D020,Trade promotion tracker,Dealer master mismatch,Medium,4838,Open
+EV0031,2025-12-21,D018,Trade promotion tracker,Forecast override,Medium,4432,Triaged
+EV0032,2025-12-14,D034,Forecast workbook,Inventory refresh lag,Low,2067,Open
+EV0033,2026-01-21,D015,Dealer portal,Inventory refresh lag,Medium,5350,Resolved
+EV0034,2025-09-19,D023,CRM,Late POS file,Low,1747,Resolved
+EV0035,2025-10-30,D008,CRM,Dealer master mismatch,Medium,10202,Open
+EV0036,2025-09-01,D024,Forecast workbook,Inventory refresh lag,Medium,6812,Resolved
+EV0037,2026-03-06,D001,Trade promotion tracker,Promo code gap,Low,1455,Resolved
+EV0038,2026-01-16,D033,ERP,Inventory refresh lag,Medium,7222,Resolved
+EV0039,2026-02-27,D004,Forecast workbook,Late POS file,Low,1731,Resolved
+EV0040,2025-08-17,D030,Dealer portal,Dealer master mismatch,Medium,9170,Resolved
+EV0041,2025-07-09,D018,CRM,Inventory refresh lag,Medium,7869,Open
+EV0042,2026-04-18,D007,Dealer portal,Inventory refresh lag,High,15651,Open
+EV0043,2026-02-19,D011,Trade promotion tracker,Dealer master mismatch,Medium,10005,Open
+EV0044,2025-07-12,D030,ERP,Forecast override,High,26590,Open
+EV0045,2025-12-25,D002,CRM,Forecast override,Low,1956,Open
+EV0046,2025-07-01,D024,Dealer portal,Forecast override,Low,1768,Triaged
+EV0047,2026-01-30,D030,Dealer portal,Inventory refresh lag,Medium,8386,Resolved
+EV0048,2026-01-11,D015,CRM,Forecast override,Medium,8117,Resolved
+EV0049,2025-08-05,D021,CRM,Late POS file,Low,1805,Triaged
+EV0050,2025-10-14,D017,ERP,Inventory refresh lag,High,19967,Resolved
+EV0051,2025-08-04,D011,CRM,Late POS file,Medium,6715,Open
+EV0052,2026-02-10,D021,Forecast workbook,Late POS file,Low,1934,Resolved
+EV0053,2025-12-01,D033,Forecast workbook,Promo code gap,Medium,4448,Resolved
+EV0054,2025-09-10,D003,CRM,Late POS file,High,17396,Resolved
+EV0055,2025-12-18,D003,Trade promotion tracker,Late POS file,High,23900,Open
+EV0056,2025-09-30,D019,ERP,Inventory refresh lag,Medium,4548,Resolved
+EV0057,2025-11-21,D015,Forecast workbook,Promo code gap,High,22118,Open
+EV0058,2026-03-10,D002,Trade promotion tracker,Promo code gap,Low,1827,Triaged
+EV0059,2026-04-12,D021,ERP,Forecast override,Low,1636,Resolved
+EV0060,2026-03-15,D007,ERP,Forecast override,Medium,6311,Open
+EV0061,2025-07-05,D006,Dealer portal,Inventory refresh lag,Medium,7600,Triaged
+EV0062,2025-08-06,D010,Forecast workbook,Dealer master mismatch,Medium,5964,Resolved
+EV0063,2025-11-11,D027,Dealer portal,Late POS file,Low,919,Resolved
+EV0064,2025-09-01,D019,CRM,Inventory refresh lag,Low,1312,Resolved
+EV0065,2025-11-02,D009,Trade promotion tracker,Promo code gap,Medium,5801,Resolved
+EV0066,2025-12-28,D008,CRM,Inventory refresh lag,Low,1844,Triaged
+EV0067,2026-04-22,D018,CRM,Inventory refresh lag,Low,1072,Resolved
+EV0068,2026-01-19,D032,Dealer portal,Inventory refresh lag,Low,2096,Triaged
+EV0069,2025-10-06,D023,ERP,Late POS file,High,25171,Resolved
+EV0070,2026-04-07,D015,ERP,Late POS file,Low,1934,Resolved
+EV0071,2026-03-19,D001,CRM,Dealer master mismatch,Low,1933,Triaged
+EV0072,2026-02-25,D011,Trade promotion tracker,Inventory refresh lag,Low,1219,Triaged
+EV0073,2025-10-23,D029,ERP,Dealer master mismatch,High,24311,Triaged
+EV0074,2025-08-30,D006,Trade promotion tracker,Late POS file,Low,1098,Triaged
+EV0075,2025-09-04,D001,CRM,Dealer master mismatch,Medium,4583,Resolved
+EV0076,2026-04-27,D021,Trade promotion tracker,Late POS file,Low,2022,Triaged
+EV0077,2026-01-25,D012,CRM,Inventory refresh lag,Low,1898,Resolved
+EV0078,2025-11-27,D032,CRM,Promo code gap,Low,926,Triaged
+EV0079,2025-11-09,D005,ERP,Dealer master mismatch,Low,1074,Resolved
+EV0080,2025-12-30,D008,Forecast workbook,Promo code gap,Medium,4950,Triaged
+EV0081,2025-11-06,D020,CRM,Late POS file,Medium,8785,Triaged
+EV0082,2026-03-12,D004,Trade promotion tracker,Promo code gap,Low,1817,Resolved
+EV0083,2026-03-14,D010,Trade promotion tracker,Inventory refresh lag,Low,971,Triaged
+EV0084,2025-08-25,D028,Trade promotion tracker,Promo code gap,Low,2013,Resolved
+EV0085,2026-04-10,D029,Trade promotion tracker,Late POS file,High,17992,Resolved
+EV0086,2025-07-17,D001,ERP,Promo code gap,Low,950,Open
+EV0087,2025-12-10,D024,ERP,Promo code gap,High,18363,Open
+EV0088,2025-09-19,D027,CRM,Forecast override,Low,1920,Resolved
+EV0089,2026-02-08,D020,CRM,Dealer master mismatch,High,11553,Triaged
+EV0090,2026-01-07,D034,Trade promotion tracker,Inventory refresh lag,Medium,9200,Triaged
+EV0091,2025-08-30,D035,CRM,Inventory refresh lag,Low,2104,Open
+EV0092,2025-09-20,D033,Dealer portal,Late POS file,Medium,6130,Open
+EV0093,2025-07-07,D013,Dealer portal,Promo code gap,Medium,9204,Open
+EV0094,2025-09-06,D021,Trade promotion tracker,Forecast override,High,13881,Open
+EV0095,2025-08-21,D019,Forecast workbook,Forecast override,Medium,4527,Resolved
+EV0096,2026-03-05,D021,Dealer portal,Forecast override,Medium,5496,Resolved
+EV0097,2025-11-02,D020,CRM,Promo code gap,Low,1673,Open
+EV0098,2025-10-28,D018,Dealer portal,Inventory refresh lag,Low,1166,Triaged
+EV0099,2025-12-30,D013,Forecast workbook,Promo code gap,Medium,9873,Open
+EV0100,2026-01-28,D004,Forecast workbook,Promo code gap,Low,991,Resolved
+EV0101,2026-02-04,D027,CRM,Forecast override,High,19007,Resolved
+EV0102,2026-01-09,D026,Dealer portal,Forecast override,High,23491,Resolved
+EV0103,2026-03-26,D013,Forecast workbook,Late POS file,High,21658,Resolved
+EV0104,2025-11-22,D018,Dealer portal,Forecast override,Low,1760,Resolved
+EV0105,2026-01-22,D019,Trade promotion tracker,Promo code gap,Low,993,Resolved
+EV0106,2026-04-07,D011,Dealer portal,Forecast override,Medium,7860,Open
+EV0107,2026-04-15,D001,Dealer portal,Inventory refresh lag,High,23816,Triaged
+EV0108,2025-10-04,D002,Forecast workbook,Late POS file,Medium,8530,Triaged
+EV0109,2026-03-23,D008,CRM,Promo code gap,Medium,6795,Resolved
+EV0110,2025-09-18,D036,Dealer portal,Promo code gap,Medium,6994,Resolved
+EV0111,2025-08-25,D032,CRM,Dealer master mismatch,High,15160,Resolved
+EV0112,2026-03-04,D024,CRM,Promo code gap,Low,2108,Resolved
+EV0113,2025-10-19,D034,ERP,Forecast override,Low,1579,Resolved
+EV0114,2025-10-01,D008,Trade promotion tracker,Inventory refresh lag,High,23421,Resolved
+EV0115,2026-02-15,D023,ERP,Inventory refresh lag,Low,1250,Triaged
+EV0116,2025-12-03,D025,Trade promotion tracker,Dealer master mismatch,Low,1470,Open
+EV0117,2026-01-07,D007,ERP,Late POS file,Low,2076,Triaged
+EV0118,2025-11-21,D004,ERP,Dealer master mismatch,Low,1220,Open
+EV0119,2025-09-29,D012,Forecast workbook,Inventory refresh lag,Low,1573,Triaged
+EV0120,2026-04-25,D010,ERP,Inventory refresh lag,Low,1137,Triaged
+EV0121,2025-07-18,D015,Trade promotion tracker,Forecast override,Low,2051,Triaged
+EV0122,2025-08-12,D005,ERP,Forecast override,High,20639,Resolved
+EV0123,2025-08-20,D010,CRM,Promo code gap,Medium,10378,Resolved
+EV0124,2026-04-04,D010,Forecast workbook,Dealer master mismatch,Medium,4853,Resolved
+EV0125,2026-03-17,D012,ERP,Forecast override,Low,1614,Resolved
+EV0126,2025-07-14,D014,ERP,Forecast override,Medium,6466,Triaged
+EV0127,2026-04-01,D002,Dealer portal,Inventory refresh lag,Low,1050,Triaged
+EV0128,2025-09-13,D035,Forecast workbook,Dealer master mismatch,Low,2110,Resolved
+EV0129,2026-04-14,D018,Forecast workbook,Inventory refresh lag,High,22576,Open
+EV0130,2026-04-30,D031,Forecast workbook,Inventory refresh lag,High,16042,Triaged
+EV0131,2026-01-16,D011,Trade promotion tracker,Inventory refresh lag,Low,1998,Triaged
+EV0132,2025-12-28,D010,Trade promotion tracker,Promo code gap,Low,1780,Resolved
+EV0133,2025-11-23,D026,ERP,Inventory refresh lag,Low,1795,Resolved
+EV0134,2026-01-17,D004,Dealer portal,Late POS file,Low,1985,Open
+EV0135,2025-08-21,D033,Forecast workbook,Late POS file,Low,1035,Open
+EV0136,2026-02-26,D002,ERP,Dealer master mismatch,Medium,7358,Triaged
+EV0137,2026-02-23,D033,Dealer portal,Late POS file,Low,1050,Open
+EV0138,2025-07-29,D032,Dealer portal,Forecast override,Medium,7276,Triaged
+EV0139,2026-03-21,D015,Dealer portal,Late POS file,Low,1638,Resolved
+EV0140,2026-03-11,D029,Forecast workbook,Promo code gap,Low,1404,Triaged
+EV0141,2025-07-27,D017,Forecast workbook,Late POS file,Medium,6675,Triaged
+EV0142,2026-03-26,D022,Trade promotion tracker,Inventory refresh lag,High,23988,Resolved
+EV0143,2025-07-30,D020,CRM,Dealer master mismatch,Medium,6076,Resolved
+EV0144,2025-10-22,D033,Trade promotion tracker,Inventory refresh lag,Low,1987,Triaged
+EV0145,2025-09-29,D019,Forecast workbook,Dealer master mismatch,Low,1432,Resolved
+EV0146,2025-08-25,D027,CRM,Promo code gap,High,14833,Triaged
+EV0147,2026-04-03,D021,ERP,Dealer master mismatch,Low,1494,Resolved
+EV0148,2025-08-25,D006,Trade promotion tracker,Late POS file,Low,2114,Triaged
+EV0149,2025-11-30,D024,CRM,Late POS file,High,17246,Resolved
+EV0150,2026-03-09,D034,Forecast workbook,Dealer master mismatch,Low,1777,Open
+EV0151,2026-04-10,D019,ERP,Dealer master mismatch,Medium,6625,Triaged
+EV0152,2025-10-14,D016,CRM,Dealer master mismatch,Low,1287,Resolved
+EV0153,2025-07-09,D034,CRM,Inventory refresh lag,Medium,4391,Open
+EV0154,2025-09-29,D006,CRM,Forecast override,Low,1507,Resolved
+EV0155,2025-11-09,D026,Dealer portal,Late POS file,Medium,4923,Resolved
+EV0156,2025-08-28,D018,CRM,Inventory refresh lag,Low,1098,Resolved
+EV0157,2026-01-09,D020,ERP,Promo code gap,Low,1117,Triaged
+EV0158,2025-07-17,D030,Dealer portal,Forecast override,Low,1804,Triaged
+EV0159,2025-12-24,D008,ERP,Inventory refresh lag,Medium,6981,Resolved
+EV0160,2025-07-06,D031,ERP,Dealer master mismatch,High,23350,Resolved
+EV0161,2025-10-31,D013,CRM,Forecast override,Medium,6515,Resolved
+EV0162,2026-04-12,D017,ERP,Dealer master mismatch,Medium,5762,Resolved
+EV0163,2026-04-25,D034,Dealer portal,Dealer master mismatch,Low,1474,Triaged
+EV0164,2025-08-22,D034,ERP,Late POS file,Low,1312,Resolved
+EV0165,2025-12-13,D028,Dealer portal,Late POS file,Medium,6222,Resolved
+EV0166,2025-12-12,D001,Trade promotion tracker,Dealer master mismatch,Low,1910,Triaged
+EV0167,2025-10-11,D024,ERP,Inventory refresh lag,High,20239,Resolved
+EV0168,2026-04-07,D022,CRM,Promo code gap,Low,2080,Open
+EV0169,2026-03-25,D018,CRM,Inventory refresh lag,Medium,5974,Resolved
+EV0170,2025-09-17,D030,Trade promotion tracker,Forecast override,Low,2097,Open
+EV0171,2025-08-07,D009,CRM,Promo code gap,High,22817,Open
+EV0172,2025-07-27,D002,Trade promotion tracker,Dealer master mismatch,Medium,9969,Triaged
+EV0173,2025-08-26,D035,Trade promotion tracker,Late POS file,High,14810,Resolved
+EV0174,2025-11-16,D034,CRM,Dealer master mismatch,Low,1338,Open
+EV0175,2025-07-18,D008,Dealer portal,Promo code gap,Low,1110,Open
+EV0176,2025-12-14,D034,CRM,Late POS file,Medium,9054,Resolved
+EV0177,2025-08-11,D021,ERP,Forecast override,Low,2101,Open
+EV0178,2025-11-03,D024,ERP,Inventory refresh lag,High,23469,Triaged
+EV0179,2025-11-07,D007,ERP,Promo code gap,High,21640,Triaged
+EV0180,2026-02-25,D027,Dealer portal,Inventory refresh lag,High,12692,Resolved
+EV0181,2026-02-25,D004,Dealer portal,Dealer master mismatch,High,25376,Resolved
+EV0182,2026-03-25,D016,Forecast workbook,Promo code gap,Low,1878,Resolved
+EV0183,2025-10-19,D005,Forecast workbook,Dealer master mismatch,Medium,9843,Triaged
+EV0184,2025-07-29,D012,CRM,Inventory refresh lag,Low,1791,Triaged
+EV0185,2026-04-25,D022,ERP,Forecast override,Low,951,Triaged
+EV0186,2025-11-18,D008,Dealer portal,Forecast override,High,19545,Triaged
+EV0187,2025-11-04,D032,Dealer portal,Promo code gap,Medium,7425,Triaged
+EV0188,2026-03-07,D022,Trade promotion tracker,Dealer master mismatch,Low,920,Triaged
+EV0189,2026-02-09,D017,Trade promotion tracker,Late POS file,Medium,9941,Triaged
+EV0190,2025-09-16,D025,CRM,Dealer master mismatch,Low,1864,Resolved
+EV0191,2026-01-12,D015,Trade promotion tracker,Forecast override,Low,2034,Triaged
+EV0192,2025-07-08,D027,Trade promotion tracker,Inventory refresh lag,Low,1060,Triaged
+EV0193,2026-03-12,D018,CRM,Promo code gap,Low,988,Resolved
+EV0194,2026-02-28,D022,CRM,Inventory refresh lag,Low,1775,Open
+EV0195,2025-09-17,D014,Trade promotion tracker,Forecast override,Low,1740,Resolved
+EV0196,2025-11-01,D019,Forecast workbook,Forecast override,Medium,7200,Triaged
+EV0197,2026-03-02,D026,CRM,Inventory refresh lag,Medium,7457,Triaged
+EV0198,2025-11-12,D005,Forecast workbook,Promo code gap,Medium,4955,Resolved
+EV0199,2025-08-15,D015,Forecast workbook,Forecast override,Low,1399,Resolved
+EV0200,2026-02-20,D033,ERP,Dealer master mismatch,Medium,9136,Resolved
+EV0201,2026-03-04,D010,CRM,Dealer master mismatch,Low,1920,Resolved
+EV0202,2025-07-27,D023,Forecast workbook,Forecast override,Low,1452,Resolved
+EV0203,2025-12-17,D033,CRM,Late POS file,Medium,4354,Triaged
+EV0204,2025-11-05,D003,Trade promotion tracker,Promo code gap,Low,1699,Resolved
+EV0205,2026-04-20,D026,CRM,Late POS file,Low,1519,Resolved
+EV0206,2025-08-20,D014,Forecast workbook,Dealer master mismatch,Medium,4360,Triaged
+EV0207,2025-08-07,D014,Dealer portal,Inventory refresh lag,Low,1481,Triaged
+EV0208,2026-01-31,D036,Trade promotion tracker,Promo code gap,Low,1475,Open
+EV0209,2025-07-02,D016,Dealer portal,Forecast override,Low,1108,Triaged
+EV0210,2025-12-12,D011,CRM,Inventory refresh lag,Low,1681,Open
+EV0211,2025-11-06,D005,Dealer portal,Forecast override,Low,1420,Resolved
+EV0212,2026-04-07,D019,Dealer portal,Late POS file,High,14938,Resolved
+EV0213,2025-10-23,D005,Forecast workbook,Late POS file,Medium,7556,Resolved
+EV0214,2025-08-10,D027,ERP,Forecast override,Low,1373,Open
+EV0215,2025-10-14,D023,ERP,Promo code gap,Low,1621,Triaged
+EV0216,2025-09-02,D008,Forecast workbook,Inventory refresh lag,Low,1181,Triaged
+EV0217,2026-04-08,D027,Dealer portal,Forecast override,Medium,7869,Resolved
+EV0218,2025-11-28,D022,ERP,Dealer master mismatch,Medium,4892,Resolved
+EV0219,2025-09-18,D016,Dealer portal,Forecast override,Low,2047,Triaged
+EV0220,2025-09-25,D004,CRM,Forecast override,Low,1708,Resolved
+EV0221,2026-03-27,D032,Forecast workbook,Dealer master mismatch,High,26034,Resolved
+EV0222,2025-08-06,D009,ERP,Promo code gap,Low,1346,Triaged
+EV0223,2026-02-17,D014,Trade promotion tracker,Dealer master mismatch,Medium,8827,Triaged
+EV0224,2025-11-26,D035,Dealer portal,Late POS file,Medium,7418,Triaged
+EV0225,2025-10-19,D027,Forecast workbook,Promo code gap,Medium,9110,Resolved
+EV0226,2026-03-09,D020,ERP,Inventory refresh lag,Medium,6335,Open
+EV0227,2025-08-01,D004,CRM,Forecast override,High,13670,Resolved
+EV0228,2026-01-30,D007,Trade promotion tracker,Late POS file,High,15179,Resolved
+EV0229,2026-04-27,D016,ERP,Inventory refresh lag,High,23619,Triaged
+EV0230,2025-11-25,D014,Trade promotion tracker,Inventory refresh lag,Low,1774,Open
+EV0231,2026-03-07,D021,Dealer portal,Forecast override,Medium,8036,Open
+EV0232,2026-04-11,D018,CRM,Late POS file,Low,1138,Resolved
+EV0233,2025-08-06,D007,Forecast workbook,Late POS file,Low,909,Triaged
+EV0234,2026-02-25,D003,Forecast workbook,Dealer master mismatch,Low,2156,Open
+EV0235,2025-07-19,D008,CRM,Inventory refresh lag,High,11419,Triaged
+EV0236,2026-03-20,D033,ERP,Inventory refresh lag,Low,1288,Open
+EV0237,2025-11-07,D008,CRM,Forecast override,Low,1087,Open
+EV0238,2026-01-31,D021,CRM,Late POS file,Low,2053,Resolved
+EV0239,2026-01-05,D006,Forecast workbook,Dealer master mismatch,High,11388,Resolved
+EV0240,2025-10-26,D022,CRM,Promo code gap,Medium,4850,Triaged
+EV0241,2025-08-18,D022,CRM,Forecast override,High,20552,Resolved
+EV0242,2025-10-15,D009,CRM,Inventory refresh lag,Medium,9087,Resolved
+EV0243,2025-09-24,D026,Forecast workbook,Forecast override,Low,1807,Open
+EV0244,2025-10-28,D018,Trade promotion tracker,Promo code gap,Low,1658,Open
+EV0245,2026-02-12,D021,ERP,Forecast override,Low,2041,Open
+EV0246,2025-10-28,D031,Forecast workbook,Forecast override,Medium,9690,Triaged
+EV0247,2025-12-29,D003,CRM,Late POS file,High,13697,Open
+EV0248,2026-01-04,D018,Dealer portal,Promo code gap,Medium,7094,Triaged
+EV0249,2025-10-21,D031,ERP,Promo code gap,High,16028,Resolved
+EV0250,2025-12-18,D009,Forecast workbook,Forecast override,Medium,6306,Triaged
+EV0251,2025-08-07,D007,CRM,Dealer master mismatch,Medium,4347,Resolved
+EV0252,2025-10-30,D014,Dealer portal,Inventory refresh lag,Low,2110,Resolved
+EV0253,2026-01-14,D009,CRM,Inventory refresh lag,Low,1294,Resolved
+EV0254,2025-07-23,D024,Forecast workbook,Promo code gap,Low,930,Triaged
+EV0255,2025-11-16,D021,Dealer portal,Inventory refresh lag,Low,1856,Resolved
+EV0256,2025-08-04,D027,CRM,Dealer master mismatch,Low,1985,Triaged
+EV0257,2025-07-26,D032,Dealer portal,Inventory refresh lag,Low,1196,Resolved
+EV0258,2026-04-22,D034,ERP,Inventory refresh lag,Low,1908,Resolved
+EV0259,2025-07-22,D018,Forecast workbook,Dealer master mismatch,Low,1863,Triaged
+EV0260,2026-04-05,D011,Dealer portal,Inventory refresh lag,Medium,5187,Open
+EV0261,2025-07-27,D032,Dealer portal,Inventory refresh lag,Medium,5960,Open
+EV0262,2026-03-05,D022,Forecast workbook,Promo code gap,Medium,9848,Resolved
+EV0263,2026-01-09,D015,CRM,Promo code gap,High,25314,Triaged
+EV0264,2026-03-25,D010,Trade promotion tracker,Late POS file,High,20257,Resolved
+EV0265,2026-02-18,D033,Trade promotion tracker,Promo code gap,Medium,7891,Triaged
+EV0266,2026-02-07,D019,ERP,Inventory refresh lag,High,16128,Resolved
+EV0267,2025-10-11,D031,Dealer portal,Forecast override,Low,2036,Triaged
+EV0268,2026-04-30,D026,CRM,Late POS file,Low,2167,Resolved
+EV0269,2025-07-13,D021,Dealer portal,Promo code gap,Low,1052,Open
+EV0270,2025-09-30,D024,CRM,Dealer master mismatch,Low,1359,Resolved
+EV0271,2026-04-03,D032,CRM,Forecast override,Low,1627,Resolved
+EV0272,2025-10-23,D003,ERP,Late POS file,Low,905,Resolved
+EV0273,2026-02-12,D034,Trade promotion tracker,Promo code gap,High,23065,Resolved
+EV0274,2025-10-29,D025,ERP,Late POS file,Low,1823,Resolved
+EV0275,2025-08-23,D009,CRM,Dealer master mismatch,Medium,7981,Resolved
+EV0276,2025-09-13,D024,ERP,Promo code gap,Low,1127,Triaged
+EV0277,2025-12-31,D009,CRM,Promo code gap,High,12517,Open
+EV0278,2025-07-31,D034,Trade promotion tracker,Inventory refresh lag,Medium,5581,Resolved
+EV0279,2026-04-09,D006,ERP,Forecast override,Low,1166,Resolved
+EV0280,2025-12-17,D003,Forecast workbook,Promo code gap,Low,1559,Resolved
+EV0281,2025-10-09,D031,Dealer portal,Forecast override,Low,1347,Open
+EV0282,2026-03-03,D014,Forecast workbook,Inventory refresh lag,High,19868,Open
+EV0283,2025-07-25,D026,Trade promotion tracker,Promo code gap,Low,1722,Open
+EV0284,2025-09-19,D016,Forecast workbook,Promo code gap,Low,1566,Triaged
+EV0285,2026-03-02,D013,CRM,Late POS file,Low,1268,Triaged
+EV0286,2026-01-01,D006,Forecast workbook,Inventory refresh lag,Medium,10191,Resolved
+EV0287,2025-08-19,D024,Trade promotion tracker,Late POS file,Low,978,Triaged
+EV0288,2026-04-21,D017,CRM,Dealer master mismatch,Medium,5170,Open
+EV0289,2026-03-19,D006,Forecast workbook,Promo code gap,Low,2133,Open
+EV0290,2025-10-23,D002,Dealer portal,Inventory refresh lag,Low,2073,Open
+EV0291,2026-01-01,D023,ERP,Forecast override,Low,1321,Resolved
+EV0292,2025-12-14,D012,Forecast workbook,Late POS file,Medium,10334,Open
+EV0293,2025-09-27,D027,ERP,Dealer master mismatch,High,11135,Resolved
+EV0294,2025-07-25,D032,Forecast workbook,Forecast override,Medium,6857,Resolved
+EV0295,2025-08-21,D006,Dealer portal,Late POS file,Low,1928,Resolved
+EV0296,2025-09-20,D001,ERP,Forecast override,Low,1169,Triaged
+EV0297,2025-11-10,D020,CRM,Forecast override,Low,1530,Open
+EV0298,2026-01-16,D028,Forecast workbook,Dealer master mismatch,Low,1908,Resolved
+EV0299,2026-03-18,D007,ERP,Forecast override,Low,1404,Triaged
+EV0300,2026-03-07,D025,ERP,Forecast override,Low,2124,Triaged
+EV0301,2025-07-26,D035,Trade promotion tracker,Dealer master mismatch,Low,1445,Resolved
+EV0302,2026-04-24,D025,Dealer portal,Late POS file,Medium,7884,Open
+EV0303,2025-08-05,D007,Dealer portal,Dealer master mismatch,Medium,8858,Resolved
+EV0304,2026-01-06,D034,ERP,Late POS file,Low,1954,Resolved
+EV0305,2025-08-02,D022,CRM,Inventory refresh lag,Medium,7580,Resolved
+EV0306,2026-04-12,D013,ERP,Forecast override,Low,1687,Resolved
+EV0307,2025-12-17,D016,Dealer portal,Dealer master mismatch,Low,1251,Resolved
+EV0308,2025-07-08,D021,Dealer portal,Forecast override,Medium,8498,Resolved
+EV0309,2025-09-01,D027,CRM,Dealer master mismatch,High,25590,Triaged
+EV0310,2025-10-03,D030,CRM,Inventory refresh lag,Medium,9859,Triaged
+EV0311,2026-03-25,D026,Trade promotion tracker,Dealer master mismatch,Medium,5363,Triaged
+EV0312,2026-03-18,D034,Dealer portal,Inventory refresh lag,Medium,7854,Open
+EV0313,2025-07-28,D027,Dealer portal,Promo code gap,Medium,8071,Triaged
+EV0314,2025-09-25,D029,CRM,Promo code gap,Low,2053,Resolved
+EV0315,2026-04-03,D020,Dealer portal,Forecast override,Medium,5411,Resolved
+EV0316,2025-09-20,D013,Forecast workbook,Forecast override,Low,1005,Triaged
+EV0317,2026-02-10,D005,ERP,Promo code gap,Medium,5434,Resolved
+EV0318,2025-07-12,D012,Trade promotion tracker,Late POS file,Low,1685,Triaged
+EV0319,2025-10-26,D002,Dealer portal,Forecast override,High,20317,Triaged
+EV0320,2025-07-31,D004,CRM,Late POS file,Medium,6003,Resolved
+EV0321,2026-03-03,D001,Forecast workbook,Forecast override,Low,2046,Open
+EV0322,2026-03-03,D032,Trade promotion tracker,Late POS file,Low,1537,Open
+EV0323,2025-07-16,D025,CRM,Dealer master mismatch,Low,1494,Resolved
+EV0324,2026-02-02,D010,Forecast workbook,Late POS file,Medium,10104,Resolved
+EV0325,2026-04-30,D032,CRM,Inventory refresh lag,Low,1364,Triaged
+EV0326,2025-08-30,D005,CRM,Forecast override,Low,1671,Triaged
+EV0327,2026-02-27,D021,Dealer portal,Dealer master mismatch,Medium,5065,Resolved
+EV0328,2025-09-14,D023,Dealer portal,Late POS file,Medium,9330,Resolved
+EV0329,2025-09-27,D009,ERP,Dealer master mismatch,High,24718,Triaged
+EV0330,2026-03-12,D034,CRM,Dealer master mismatch,Medium,9764,Resolved
+EV0331,2025-09-10,D034,ERP,Forecast override,Low,1002,Resolved
+EV0332,2026-03-13,D010,CRM,Dealer master mismatch,Medium,5133,Triaged
+EV0333,2025-10-16,D002,ERP,Forecast override,Medium,10123,Open
+EV0334,2025-10-01,D028,Dealer portal,Late POS file,High,20319,Resolved
+EV0335,2025-11-10,D027,ERP,Dealer master mismatch,Medium,4551,Resolved
+EV0336,2025-09-10,D033,Trade promotion tracker,Dealer master mismatch,Medium,8851,Resolved
+EV0337,2026-03-22,D028,Dealer portal,Promo code gap,Medium,9551,Triaged
+EV0338,2025-07-15,D016,CRM,Late POS file,Medium,6711,Resolved
+EV0339,2025-08-25,D013,Trade promotion tracker,Dealer master mismatch,Low,1504,Resolved
+EV0340,2026-01-02,D022,ERP,Inventory refresh lag,Low,1497,Open
+EV0341,2025-12-09,D017,ERP,Late POS file,Medium,10093,Resolved
+EV0342,2025-11-04,D013,ERP,Forecast override,Medium,8478,Resolved
+EV0343,2025-11-26,D021,CRM,Late POS file,Low,1857,Triaged
+EV0344,2025-11-14,D034,Forecast workbook,Inventory refresh lag,Low,1313,Resolved
+EV0345,2026-01-18,D012,Forecast workbook,Promo code gap,High,11175,Triaged
+EV0346,2026-01-25,D020,Forecast workbook,Inventory refresh lag,Low,1719,Resolved
+EV0347,2026-03-14,D025,CRM,Inventory refresh lag,Medium,6757,Resolved
+EV0348,2025-08-18,D008,Dealer portal,Forecast override,Medium,9715,Resolved
+EV0349,2025-10-24,D014,Forecast workbook,Promo code gap,Low,2159,Open
+EV0350,2025-12-20,D021,Dealer portal,Dealer master mismatch,Low,1422,Triaged
+EV0351,2026-04-02,D006,Forecast workbook,Dealer master mismatch,Low,1181,Open
+EV0352,2025-10-24,D020,Trade promotion tracker,Dealer master mismatch,Low,1289,Open
+EV0353,2025-08-13,D023,Dealer portal,Inventory refresh lag,Low,1807,Resolved
+EV0354,2025-12-02,D008,CRM,Inventory refresh lag,Low,944,Resolved
+EV0355,2026-03-16,D035,Dealer portal,Late POS file,Low,2116,Resolved
+EV0356,2025-10-24,D034,CRM,Late POS file,Low,1836,Triaged
+EV0357,2025-11-17,D032,CRM,Forecast override,Low,1272,Triaged
+EV0358,2026-04-12,D024,ERP,Inventory refresh lag,Low,1530,Resolved
+EV0359,2026-03-13,D021,ERP,Inventory refresh lag,High,16715,Open
+EV0360,2025-07-12,D024,Dealer portal,Late POS file,Low,1009,Resolved
+EV0361,2026-03-01,D028,Forecast workbook,Inventory refresh lag,Low,1646,Resolved
+EV0362,2026-04-23,D028,Forecast workbook,Late POS file,Medium,4612,Triaged
+EV0363,2026-02-12,D029,Trade promotion tracker,Promo code gap,Low,1962,Resolved
+EV0364,2026-01-13,D015,Forecast workbook,Late POS file,Medium,7970,Triaged
+EV0365,2025-10-12,D006,CRM,Late POS file,Low,1931,Open
+EV0366,2026-04-21,D015,Dealer portal,Inventory refresh lag,Low,1999,Resolved
+EV0367,2026-02-18,D013,ERP,Promo code gap,Low,1884,Triaged
+EV0368,2025-12-15,D007,Trade promotion tracker,Forecast override,Low,2006,Resolved
+EV0369,2026-03-26,D010,Trade promotion tracker,Late POS file,Low,2143,Resolved
+EV0370,2025-12-01,D031,Dealer portal,Promo code gap,High,19810,Triaged
+EV0371,2025-08-13,D017,Dealer portal,Dealer master mismatch,Low,1171,Open
+EV0372,2025-10-01,D014,Trade promotion tracker,Promo code gap,Low,1418,Triaged
+EV0373,2025-07-04,D025,Forecast workbook,Inventory refresh lag,Low,1779,Resolved
+EV0374,2026-01-06,D018,Dealer portal,Promo code gap,Low,1807,Triaged
+EV0375,2026-01-26,D021,Dealer portal,Late POS file,Low,2059,Triaged
+EV0376,2026-02-14,D032,Dealer portal,Late POS file,Low,1513,Resolved
+EV0377,2026-04-11,D009,Forecast workbook,Forecast override,Low,1849,Resolved
+EV0378,2025-12-31,D024,Forecast workbook,Promo code gap,Low,2008,Triaged
+EV0379,2026-04-23,D027,Trade promotion tracker,Dealer master mismatch,Low,1902,Open
+EV0380,2026-02-10,D021,CRM,Dealer master mismatch,Low,1533,Resolved
+EV0381,2025-11-20,D007,Trade promotion tracker,Promo code gap,Medium,7306,Resolved
+EV0382,2025-08-22,D026,Forecast workbook,Late POS file,Medium,10027,Open
+EV0383,2026-01-03,D036,Trade promotion tracker,Late POS file,Low,2109,Triaged
+EV0384,2026-02-27,D022,Dealer portal,Late POS file,Low,1431,Resolved
+EV0385,2025-11-13,D029,CRM,Promo code gap,Low,2052,Triaged
+EV0386,2026-01-01,D003,ERP,Promo code gap,Medium,6038,Triaged
+EV0387,2025-11-03,D010,ERP,Late POS file,High,19551,Resolved
+EV0388,2025-08-31,D019,Trade promotion tracker,Forecast override,Medium,7537,Resolved
+EV0389,2025-10-05,D035,Forecast workbook,Promo code gap,High,16632,Resolved
+EV0390,2025-09-21,D007,Forecast workbook,Forecast override,Medium,4429,Resolved
+EV0391,2026-01-14,D029,Dealer portal,Dealer master mismatch,Low,1859,Resolved
+EV0392,2025-11-28,D017,Trade promotion tracker,Forecast override,Medium,6664,Resolved
+EV0393,2025-09-21,D033,Trade promotion tracker,Forecast override,High,25677,Open
+EV0394,2025-09-18,D013,Dealer portal,Promo code gap,Low,1305,Triaged
+EV0395,2025-07-05,D035,ERP,Dealer master mismatch,High,12077,Resolved
+EV0396,2025-08-02,D007,Trade promotion tracker,Dealer master mismatch,Low,1047,Triaged
+EV0397,2025-07-08,D020,CRM,Promo code gap,Low,1142,Resolved
+EV0398,2025-08-05,D007,Dealer portal,Inventory refresh lag,Low,947,Open
+EV0399,2026-01-01,D013,CRM,Dealer master mismatch,Low,1456,Resolved
+EV0400,2026-04-10,D026,CRM,Dealer master mismatch,Medium,7605,Resolved
+EV0401,2026-04-17,D030,ERP,Promo code gap,Low,1443,Resolved
+EV0402,2025-10-17,D019,Forecast workbook,Inventory refresh lag,High,25794,Open
+EV0403,2025-08-31,D012,Forecast workbook,Late POS file,Medium,7242,Resolved
+EV0404,2025-08-12,D013,Forecast workbook,Forecast override,Medium,6177,Open
+EV0405,2026-04-10,D012,Trade promotion tracker,Dealer master mismatch,Low,1273,Triaged
+EV0406,2025-07-08,D008,Trade promotion tracker,Inventory refresh lag,Low,1646,Open
+EV0407,2026-04-25,D007,Dealer portal,Late POS file,Low,1213,Open
+EV0408,2025-10-28,D007,Trade promotion tracker,Inventory refresh lag,Medium,7063,Resolved
+EV0409,2025-10-17,D036,Trade promotion tracker,Inventory refresh lag,Low,900,Open
+EV0410,2025-08-03,D001,Trade promotion tracker,Promo code gap,Medium,9435,Resolved
+EV0411,2025-07-25,D030,ERP,Forecast override,Medium,7961,Triaged
+EV0412,2026-03-15,D004,ERP,Dealer master mismatch,Medium,9483,Resolved
+EV0413,2026-04-28,D011,CRM,Dealer master mismatch,Low,1410,Resolved
+EV0414,2026-02-27,D014,CRM,Inventory refresh lag,Medium,9834,Open
+EV0415,2026-03-19,D021,ERP,Promo code gap,Medium,10388,Open
+EV0416,2025-09-21,D009,ERP,Late POS file,Low,1161,Triaged
+EV0417,2026-04-30,D006,ERP,Forecast override,Medium,4543,Resolved
+EV0418,2026-02-24,D025,ERP,Inventory refresh lag,Medium,5156,Triaged
+EV0419,2025-10-07,D027,Forecast workbook,Late POS file,Low,2014,Open
+EV0420,2026-04-12,D032,Trade promotion tracker,Dealer master mismatch,Low,1648,Open

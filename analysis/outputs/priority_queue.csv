@@ -1,26 +1,19 @@
-entity_id,entity_name,segment,priority_score,avg_risk_score,avg_quality_score,estimated_impact
-DEA025,Dealer 25,Watch,88.53,49.8,78.8,731146
-DEA016,Dealer 16,Strategic,86.16,54.1,80.3,661346
-DEA024,Dealer 24,Core,85.47,52.5,80.1,664974
-DEA030,Dealer 30,Watch,83.33,51.4,80.1,644327
-DEA006,Dealer 6,Growth,83.02,54.6,80.7,611754
-DEA018,Dealer 18,Strategic,81.23,52.9,79.3,594394
-DEA013,Dealer 13,Growth,79.98,50.9,80.6,601648
-DEA015,Dealer 15,Growth,79.85,52.7,80.2,580127
-DEA009,Dealer 9,Core,78.36,51.1,81.9,582302
-DEA023,Dealer 23,Watch,78.03,55.2,79.2,523241
-DEA022,Dealer 22,Core,74.92,53.0,80.3,503010
-DEA004,Dealer 4,Strategic,74.69,48.9,79.6,536643
-DEA003,Dealer 3,Growth,74.63,51.8,79.7,507832
-DEA002,Dealer 2,Growth,73.12,52.6,77.9,467815
-DEA021,Dealer 21,Strategic,72.09,49.0,81.9,508914
-DEA010,Dealer 10,Core,71.86,51.2,80.7,476746
-DEA014,Dealer 14,Growth,71.28,53.6,79.1,437524
-DEA017,Dealer 17,Watch,70.81,52.0,78.6,442369
-DEA012,Dealer 12,Strategic,70.75,50.9,80.0,459918
-DEA001,Dealer 1,Strategic,67.91,50.6,82.0,430216
-DEA029,Dealer 29,Core,66.69,51.2,81.5,403528
-DEA027,Dealer 27,Strategic,66.61,48.1,79.3,420782
-DEA026,Dealer 26,Growth,66.38,52.7,79.1,371839
-DEA005,Dealer 5,Core,65.79,50.2,80.9,397405
-DEA019,Dealer 19,Strategic,65.67,49.0,80.7,405735
+dealer_id,dealer_name,region,channel_type,priority_score,risk_tier,forecast_variance_pct,forecast_accuracy_pct,recent_sales,sales_momentum_pct,inventory_days,avg_discount_pct,promo_roi,open_comp_exposure,coverage_pressure_pct,data_quality_score,recommended_action
+D012,West Channel Partner 12,West,Distributor,63.6,Critical,15.7,84.3,3492382,26.6,9.8,12.6,2.0,0,50.0,92.2,Rebalance coverage and protect constrained supply
+D004,West Channel Partner 4,West,Distributor,53.4,Watch,9.5,90.5,2037271,23.1,12.6,12.4,1.5,21549,50.0,95.1,Review incentive payout before month close
+D008,West Channel Partner 8,West,Distributor,51.0,Watch,10.0,90.0,1273211,25.8,11.6,12.5,2.0,0,50.0,92.3,Rebalance coverage and protect constrained supply
+D020,West Channel Partner 20,West,Distributor,47.7,Watch,4.5,95.5,1810133,27.6,10.5,13.8,2.8,26081,50.0,92.7,Review incentive payout before month close
+D016,West Channel Partner 16,West,Distributor,47.2,Watch,6.9,93.1,2414121,29.8,10.9,13.1,2.3,12634,50.0,94.2,Rebalance coverage and protect constrained supply
+D028,West Channel Partner 28,West,Distributor,47.2,Watch,8.5,91.5,2874821,22.4,10.5,13.7,3.0,10540,50.0,94.7,Rebalance coverage and protect constrained supply
+D034,South Channel Partner 34,South,Home center,43.8,Watch,9.5,90.5,1538943,26.9,15.5,16.8,2.0,34550,25.0,93.6,Review incentive payout before month close
+D024,West Channel Partner 24,West,Distributor,43.6,Watch,8.2,91.8,1461912,24.2,11.8,12.0,2.9,0,50.0,92.8,Rebalance coverage and protect constrained supply
+D032,West Channel Partner 32,West,Distributor,41.7,Watch,7.0,93.0,2954949,22.2,11.2,12.8,2.4,0,50.0,94.1,Rebalance coverage and protect constrained supply
+D006,South Channel Partner 6,South,Home center,40.4,Watch,14.2,85.8,3972327,30.8,15.8,15.5,2.6,0,25.0,93.5,Reset forecast assumptions with regional owner
+D030,South Channel Partner 30,South,Home center,39.0,Watch,8.9,91.1,2979784,26.6,16.0,14.9,2.3,27872,25.0,92.7,Review incentive payout before month close
+D036,West Channel Partner 36,West,Distributor,39.0,Watch,9.7,90.3,3837446,26.1,14.1,12.7,2.4,0,50.0,94.8,Maintain plan and monitor weekly
+D022,South Channel Partner 22,South,Home center,37.6,Watch,6.7,93.3,1576507,26.6,15.4,16.3,1.9,25605,25.0,95.1,Review incentive payout before month close
+D019,Central Channel Partner 19,Central,Independent dealer,37.5,Watch,3.8,96.2,1934646,25.2,11.0,7.9,2.4,6492,37.5,94.1,Rebalance coverage and protect constrained supply
+D014,South Channel Partner 14,South,Home center,37.3,Watch,0.4,99.6,3390018,25.9,10.3,15.6,1.9,13253,25.0,93.7,Rebalance coverage and protect constrained supply
+D003,Central Channel Partner 3,Central,Independent dealer,37.0,Watch,-6.9,93.1,1087204,27.6,13.8,8.4,2.2,0,37.5,93.1,Rebalance coverage and protect constrained supply
+D007,Central Channel Partner 7,Central,Independent dealer,34.7,Watch,2.1,97.9,595327,31.1,14.5,9.0,2.8,35916,37.5,93.8,Review incentive payout before month close
+D010,South Channel Partner 10,South,Home center,33.3,Stable,7.6,92.4,2455082,23.8,13.1,15.6,3.3,0,25.0,95.2,Rebalance coverage and protect constrained supply
